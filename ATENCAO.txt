@@ -1,0 +1,37 @@
+*conexão como mysql
+- criar uma pasta ".strealit"
+- dentro da pasta criar um arquivo "secrets.toml"
+o modelo interno do arquivo é:
+"
+[connections.mysql]
+dialect = "mysql"
+host = "seu host local da db"
+port = a porta atribuida 
+database = "o banco de dados a ser usado"
+username = "usuário"
+password = "senha"
+query = { charset = "utf8mb4" } (o charset usado na criação do db)
+"
+como mostra a documentação:
+https://docs.streamlit.io/develop/api-reference/connections/st.connections.sqlconnection
+
+
+*venv
+como é possivel ver no arquivo ".gitignore" a pasta "venv" não é passada para o repositório
+entao é necessário instalar manualmente as lib.
+
+os passos seguintes eu fiz no VSCode no windows
+-abra o vscode na pasta raiz do projeto ("projeto-faculdade")
+-no terminal (ctrl + j) dentro do vscode digite o comando: python -m venv .venv (irá criar a pasta de ambiente virtual)
+-no terminal (ctrl + j) dentro do vscode digite o comando:venv/Scripts/activate (irá ativar o ambiente virtual, no caso o interpretador irá usar os recursos nessa pasta ao invés dos recursos na pasta raiz do python)
+-com o ambiente ativado (possui um ".venv" no inicio de cada linha) instale as libs
+--Obs: isso faz o python instalar as lib no ambiente virtual ao invés do ambiente geral
+- use os comandos:
+	pip install streamlit
+	pip install mysql-connector-python 
+	pip install SQLAlchemy
+-agora o ambiente deve estar pronto para uso
+
+
+*MySql
+-na pasta "ScriptsDataBase" tem os scripts de criação do banco, das tabelas e um csv dos registros da tabelas genéricas(tab_ger)
