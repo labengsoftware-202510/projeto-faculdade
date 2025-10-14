@@ -24,7 +24,7 @@ def Reg_Tab_Gen_R(filtro):
                             height=300,
                             selection_mode='single-row',
                             on_select='rerun',
-                            column_config=cc.colConfig())
+                            column_config=cc.colConfigTabGer())
         selRow = rowSel.selection.rows
         if selRow:
             selIndex = [dtFrame['dominio'].iloc[selRow].item(),  
