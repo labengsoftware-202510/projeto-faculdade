@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 def listTabGer(filtro):
     selectQuery = f"select *"
@@ -9,15 +10,12 @@ def listTabGer(filtro):
         selectQuery += f" where dominio = '{filtro}';"
 
     conn = st.connection('mysql', type='sql')
-    df = conn.query(selectQuery, 
-                    ttl=600)
-    return df.to_dict('records')
-
-def listPessoas(parametros):
-    # selectQuery = f"select *"
-    # selectQuery += f" from pessoas"
+    df = pd.DataFrame([{'dominio':filtro, 
+                            'valor':'',
+                            'descricao':'Selecione...',
+                            'obs':''}])
+    addRow = conn.query(selectQuery,
+                        ttl=600)
     
-    ...
-
-def listCEP(parametros):
-    ...
+    dfRetorno = pd.concat([df,addRow],ignore_index=True)
+    return dfRetorno.to_dict('records')
