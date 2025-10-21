@@ -26,7 +26,7 @@ def insCEP():
                             max_chars=30,
                             placeholder='Insira a Cidade',
                             )
-    nEstado = st.st.selectbox(label= 'Filtro por Estados',
+    nEstado = st.selectbox(label= 'Filtro por Estados',
                                 options= lst.listTabGer('est_brl'),
                                 format_func= lambda record: f'{record["descricao"]}')
     nEstado = nEstado['valor']

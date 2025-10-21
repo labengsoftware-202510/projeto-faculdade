@@ -1,19 +1,18 @@
 import streamlit as st
-import Controllers.crudCEP as ctb
+import Controllers.crudCursos as ctb
 import Controllers.colConfig as cc
 import Controllers.estSessaoMsg as statsMsg #script para o status de sessão e mensagens de sistema
-import Page.Page_CEP_C as Pg_C
-import Page.Page_CEP_U as Pg_U
-import Page.Page_CEP_D as Pg_D
+import Page.Page_Cursos_C as Pg_C
+import Page.Page_Cursos_U as Pg_U
+import Page.Page_Cursos_D as Pg_D
 
-def Reg_Cep_R(filtros):
-    selIndex = []
-    msg = None
+def cursosR(filtros = None):
+    selIndex = None
     fDesativado = True
 
     #menssagem de sucesso/erro
     if ('commandOk' in st.session_state) and ('statusMessage' in st.session_state):
-        msg = statsMsg.mostraMensagem()
+        statsMsg.mostraMensagem()
 
     tabela = ctb.select(filtros)
 
@@ -22,8 +21,8 @@ def Reg_Cep_R(filtros):
                                                 vertical_alignment='center')
     with col5:
         regButton = st.button(label='Registrar', 
-                                key='insCep',
-                                help='Click aqui para Inserir um novo Registro',
+                                key='insCurso',
+                                help='Click aqui para Inserir um novo Curso',
                                 width='stretch')
 
     if tabela[0]:
@@ -32,17 +31,14 @@ def Reg_Cep_R(filtros):
                             height=300,
                             selection_mode='single-row',
                             on_select='rerun',
-                            column_config=cc.colConfigCep())
+                            column_config=cc.colConfigCursos())
         selRow = rowSel.selection.rows
-
         if selRow:
-            selIndex = {'cep': dtFrame['cep'].iloc[selRow].item(),  
-                        'logradouro': dtFrame['logradouro'].iloc[selRow].item(),
-                        'bairro': dtFrame['bairro'].iloc[selRow].item(),
-                        'cidade': dtFrame['cidade'].iloc[selRow].item(),
-                        'estado': dtFrame['estado'].iloc[selRow].item(),
-                        'cep_format': dtFrame['cep_format'].iloc[selRow].item(),
-                        }
+            selIndex = {'cod_cur': dtFrame['cod_cur'].iloc[selRow].item(),
+                        'nom_cur': dtFrame['nom_cur'].iloc[selRow].item(),
+                        'dat_inc': dtFrame['dat_inc'].iloc[selRow].item(),
+                        'sit': dtFrame['sit'].iloc[selRow].item(),
+                        'estado': dtFrame['estado'].iloc[selRow].item()}
             fDesativado = False
         else:
             fDesativado = True
@@ -53,14 +49,14 @@ def Reg_Cep_R(filtros):
                                                 )
         with col9:
             altButton = st.button(label='Alterar',
-                                    key='altCep',
+                                    key='altCursos',
                                     help='Click aqui para Alteara a Tabela',
                                     width='stretch',
                                     disabled=fDesativado,)
         
         with col10:
             delButton = st.button(label='Deletar',
-                                    key='delCep',
+                                    key='delCursos',
                                     help='Click aqui para Deletar a Tabela',
                                     width='stretch',
                                     disabled=fDesativado,)
@@ -68,8 +64,8 @@ def Reg_Cep_R(filtros):
         st.error('Houve um Problema com a pesquisa')
     
     if regButton:
-        Pg_C.insCEP()
+        Pg_C.insCursos()
     if altButton:
-        Pg_U.altCEP(selIndex)
+        Pg_U.altCursos(selIndex)
     if delButton:
-        Pg_D.delCEP(selIndex)
+        Pg_D.delCursos(selIndex)

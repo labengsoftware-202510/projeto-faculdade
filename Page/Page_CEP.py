@@ -4,7 +4,7 @@ import Controllers.listas as lst    #script de controle de listas por query sql
 
 
 #parametros da pagina ao mostrar no browser
-st.set_page_config(page_title= 'Pessoas', 
+st.set_page_config(page_title= 'CEP', 
                 layout= 'wide',
                 initial_sidebar_state= 'collapsed')
 
@@ -41,8 +41,6 @@ filtros = ({"logradouro":filtroLogradouros,
             "cidade": filtroCidade,
             "estado":filtroEstado,
             "cep":filtroCEP})
-
-st.write(filtros)
 
 #redireciona para o script de página de listagem da tabela
 Pg_R.Reg_Cep_R(filtros)

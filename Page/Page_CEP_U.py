@@ -4,6 +4,7 @@ import Controllers.crudCEP as ctb
 
 @st.dialog('CEP - Alteração de Registros')
 def altCEP(parametros):
+    lista = lst.listTabGer('est_brl')
     
     nCep =st.text_input(label='CEP',
                     max_chars=8,
@@ -15,20 +16,26 @@ def altCEP(parametros):
     nLogradouro = st.text_input(label='Logradouro',
                                 max_chars=30,
                                 placeholder='Insira o Logradouro',
+                                value=parametros['logradouro'],
                                 )
     
     nBairro = st.text_input(label='Bairro',
                             max_chars=30,
                             placeholder='Insira o Bairro',
+                            value=parametros['bairro'],
                             )
     
     nCidade = st.text_input(label='Cidade',
                             max_chars=30,
                             placeholder='Insira a Cidade',
+                            value=parametros['cidade'],
                             )
-    nEstado = st.st.selectbox(label= 'Filtro por Estados',
-                                options= lst.listTabGer('est_brl'),
-                                format_func= lambda record: f'{record["descricao"]}')
+    nEstIndex = lst.buscaIndex(lista, parametros['estado'])
+    nEstado = st.selectbox(label= 'Filtro por Estados',
+                                options= lista,
+                                format_func= lambda record: f'{record["descricao"]}',
+                                index= nEstIndex,
+                                )
     nEstado = nEstado['valor']
 
     col1, col2, col3, col4, col5 = st.columns(5)
@@ -44,5 +51,5 @@ def altCEP(parametros):
                   'estado': nEstado}
     if altButton:
         st.spinner()
-        ctb.inserir(parametros)
+        ctb.alterar(parametros)
         

@@ -12,7 +12,8 @@ pages = {
     "Tabelas":[
         st.Page("Page/Page_Pessoas.py", title='Pessoas'),
         st.Page("Page/Page_CEP.py", title="CEP's"),
-        st.Page("Page/Page_TabGen.py", title= 'Tabelas Genéricas'),
+        st.Page("Page/Page_Cursos.py", title= 'Cursos'),
+        st.Page("Page/Page_TabGen.py", title= 'Tabelas Genéricas'),        
     ],
     "Sobre":[st.Page("Page/Page_Sobre.py", title= 'Sobre')],
 }

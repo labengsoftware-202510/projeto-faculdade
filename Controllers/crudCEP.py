@@ -4,7 +4,7 @@ from sqlalchemy import text
 
 def select(parametros):
     try:
-        selectQuery = f"select cep, substr(cep, 1, 5)||'-'||substr(cep, 6, 3) as cep_format, logradouro, bairro, cidade, estado "
+        selectQuery = f"select cep, concat(substr(lpad(cep,8,'0'), 1, 5),'-',substr(lpad(cep,8,'0'), 6, 3)) as cep_format, logradouro, bairro, cidade, estado "
         selectQuery += f" from tab_cep "
         wherePart = ''
         for key in list(parametros.keys()):
@@ -52,11 +52,10 @@ def inserir(parametros):
 def alterar(parametros):
     try:
         conn = st.connection('mysql', type='sql')
-        keys = list(parametros[0].keys())
         with conn.session as session:
             updateCommand = f"update tab_cep "
-            updateCommand += f"set {keys[1]} = :logradouro,  {keys[2]} = :bairro, {keys[3]} = :cidade, {keys[4]} = :estado "
-            updateCommand += f"where {keys[0]} = :cep;"
+            updateCommand += f"set logradouro = :logradouro,  bairro = :bairro, cidade = :cidade, estado = :estado "
+            updateCommand += f"where cep = :cep;"
             session.execute(text(updateCommand), parametros)
             session.commit()
             cepMsg = parametros['cep']
@@ -72,15 +71,14 @@ def alterar(parametros):
 def excluir(parametros):
     try:
         conn = st.connection('mysql', type='sql')
-        keys = list(parametros[0].keys())
         with conn.session as session:
             deleteCommand = f"delete from tab_cep "
-            deleteCommand += f"where {keys[0]} = :cep;"
+            deleteCommand += f"where cep = cast(:cep as signed);"
             session.execute(text(deleteCommand), parametros)
             session.commit()            
-            cepMsg = parametros['cep']
+            cepMsg = str(parametros['cep'])
             cepFmt = f'{cepMsg[:5]}-{cepMsg[5:]}'
-            statsMsg.operacaoSucesso(f'Registro {cepFmt} deletado com sucesso!')            
+            statsMsg.operacaoSucesso(f'Registro {cepFmt} deletado com sucesso!') 
             st.cache_data.clear()
             st.rerun()
     except Exception as e:
