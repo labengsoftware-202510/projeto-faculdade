@@ -8,15 +8,7 @@ import Page.Page_TabGen_D as Pg_D
 def Reg_Tab_Gen_R(filtro):
 
     tabela = ctb.select(filtro)
-
-    col1, col2, col3, col4, col5 = st.columns(spec=5,
-                                                gap=None,
-                                                vertical_alignment='center')
-    with col5:
-        regButton = st.button(label='Registrar', 
-                                key='insReg',
-                                help='Click aqui para Inserir um novo Registro',
-                                width='stretch')
+    fDesativaso = True
 
     if tabela[0]:
         dtFrame = tabela[1]
@@ -31,22 +23,35 @@ def Reg_Tab_Gen_R(filtro):
                         dtFrame['valor'].iloc[selRow].item(),
                         dtFrame['descricao'].iloc[selRow].item(),
                         dtFrame['obs'].iloc[selRow].item()]
+            fDesativaso = False
+        else:
+            selIndex = []
+            fDesativaso = True
 
         col6, col7, col8, col9, col10 = st.columns(spec=5,
                                                 gap=None,
                                                 vertical_alignment='center',
                                                 )
+        with col6:
+            regButton = st.button(label='Registrar', 
+                                key='insReg',
+                                help='Click aqui para Inserir um novo Registro',
+                                width='stretch',
+                                disabled=fDesativaso,)
+
         with col9:
             altButton = st.button(label='Alterar',
                                     key='altTab',
                                     help='Click aqui para Alteara a Tabela',
-                                    width='stretch')
+                                    width='stretch',
+                                    disabled=fDesativaso,)
         
         with col10:
             delButton = st.button(label='Deletar',
                                     key='delTab',
                                     help='Click aqui para Deletar a Tabela',
-                                    width='stretch')
+                                    width='stretch',
+                                    disabled=fDesativaso,)
     else:
         st.error('Houve um Problema com a pesquisa')
     

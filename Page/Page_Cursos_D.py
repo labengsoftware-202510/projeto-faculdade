@@ -1,10 +1,10 @@
 import streamlit as st
-import Controllers.crudCEP as ctb
+import Controllers.crudCursos as ctb
 
-@st.dialog('CEP - Exclusão de Registros')
-def delCEP(parametro):
+@st.dialog('Cursos - Exclusão de Registros')
+def delCursos(parametro):
 
-    st.write(f'Tem certeza que quer excluir o registro {parametro['cep_format']} - {parametro['logradouro']}?')
+    st.write(f'Tem certeza que quer excluir o registro {parametro['nom_cur']}?')
 
     col1, col2, col3, col4, col5 = st.columns(5)
     with col5:

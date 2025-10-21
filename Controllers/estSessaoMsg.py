@@ -28,9 +28,11 @@ def mostraMensagem():
             sucesso = st.success(st.session_state.statusMessage)
             st.session_state.statusMessage = ''
             return sucesso
-        else:
+        elif not st.session_state.commandOk and st.session_state.statusMessage:
             erro = st.error(st.session_state.statusMessage)
             st.session_state.statusMessage = ''
             return erro
+        else:
+            return None
     else:
         return None

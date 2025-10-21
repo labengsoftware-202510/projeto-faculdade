@@ -19,3 +19,9 @@ def listTabGer(filtro):
     
     dfRetorno = pd.concat([df,addRow],ignore_index=True)
     return dfRetorno.to_dict('records')
+
+def buscaIndex(lista, valorBuscado):
+    for index, item in enumerate(lista):
+        if item['valor'] == valorBuscado:
+            return index
+    return None
