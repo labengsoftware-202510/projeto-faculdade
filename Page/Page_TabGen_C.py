@@ -4,11 +4,11 @@ import Controllers.crudTabGen as ctb
 @st.dialog('Tabelas Genéricas - Criação de Registros')
 def insTab(parametro):
 
-    st.text_input(label='Dominio',
-                max_chars=30,
-                value=parametro[0],
-                disabled=True,
-                )
+    nDominio = st.text_input(label='Dominio',
+                            max_chars=30,
+                            value=parametro,
+                            disabled=True,
+                            )
 
     nValor = st.text_input(label='Valor',
                             max_chars=30,
@@ -24,6 +24,12 @@ def insTab(parametro):
                             max_chars=60,
                             placeholder='Insira uma Observação',
                             )
+    
+    valores = {'dominio': nDominio,
+               'valor': nValor,
+               'descricao': nDescricao,
+               'obs': nObs}
+    
     col1, col2, col3, col4, col5 = st.columns(5)
     with col5:
         insButton = st.button(label='Inserir',
@@ -35,5 +41,5 @@ def insTab(parametro):
             st.error('Insira a Descrição da Nova Tabela!')
         else:
             st.spinner()
-            ctb.inserir([parametro[0], nValor, nDescricao, nObs])
+            ctb.inserir(valores)
         

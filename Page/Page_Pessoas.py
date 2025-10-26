@@ -1,36 +1,30 @@
 import streamlit as st #biblioteca base
-import Page.Page_TabGen_R as Pg_R   #script da página de listagem da tabelas genéricas
-import Controllers.listas as lst    #script de controle de listas por query sql
-import Controllers.estSessaoMsg as statsMsg #script para o status de sessão e mensagens de sistema
+import Page.Page_Pessoas_R as Pg_R   #script da página de listagem da tabelas genéricas
+import Controllers.listas as lst
+
 
 #parametros da pagina ao mostrar no browser
-st.set_page_config(page_title= 'Pessoas', 
+st.set_page_config(page_title= 'Disciplinas', 
                 layout= 'wide',
                 initial_sidebar_state= 'collapsed')
-
-#menssagem de sucesso/erro
-if ('commandOk' in st.session_state) and ('statusMessage' in st.session_state):
-    statsMsg.mostraMensagem()
 
 #titulo da página
 st.title('Pessoas')
 
-# #variável com lista para servir de filtro para a tabela
-# col1, col2, col3, col4, col5 = st.columns(spec=5,
-#                                           gap=None,
-#                                           vertical_alignment='center')
-# with col1:
-#     filtroNome = st.text_input()
-#     listaNomes = lst.listPessoas(filtroNome)
+filtro = None
 
-# #variável que recebe o valor selecionado da lista no formato dicionario
-# opcao = st.selectbox(label= 'Filtro de Tabelas Genéricas',
-#                     options= lista,
-#                     format_func= lambda record: f'{record["descricao"]}' 
-#                     )
+col1, col2, col3 = st.columns(3)
 
-# #variavel quereceve o valor do campo 'valor' da tupla selecionada
-# filtro = opcao['valor'] 
+with col1:
+    pessoasFiltro = st.text_input(label='Pessoas',)
+with col2:
+    lista = lst.listTabGer('cat_pes')
+    categoriaFiltro = st.selectbox(label='Categoria',
+                                    options=lista,
+                                    format_func=lambda x:x['descricao'])
 
-# #redireciona para o script de página de listagem da tabela
-# Pg_R.Reg_Tab_Gen_R(filtro)
+filtro = {'fNome': pessoasFiltro,
+          'fCategoria': categoriaFiltro}
+
+#redireciona para o script de página de listagem da tabela
+Pg_R.pessoasR(filtro)

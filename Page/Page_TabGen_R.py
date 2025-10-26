@@ -18,14 +18,13 @@ def Reg_Tab_Gen_R(filtro):
                             on_select='rerun',
                             column_config=cc.colConfigTabGer())
         selRow = rowSel.selection.rows
-        if selRow:
-            selIndex = [dtFrame['dominio'].iloc[selRow].item(),  
-                        dtFrame['valor'].iloc[selRow].item(),
-                        dtFrame['descricao'].iloc[selRow].item(),
-                        dtFrame['obs'].iloc[selRow].item()]
+        if filtro and selRow:
+            selIndex = {'dominio': filtro,  
+                        'valor': dtFrame['valor'].iloc[selRow].item(),
+                        'descricao': dtFrame['descricao'].iloc[selRow].item(),
+                        'obs': dtFrame['obs'].iloc[selRow].item()}
             fDesativaso = False
         else:
-            selIndex = []
             fDesativaso = True
 
         col6, col7, col8, col9, col10 = st.columns(spec=5,
@@ -37,7 +36,7 @@ def Reg_Tab_Gen_R(filtro):
                                 key='insReg',
                                 help='Click aqui para Inserir um novo Registro',
                                 width='stretch',
-                                disabled=fDesativaso,)
+                                disabled=(not filtro),)
 
         with col9:
             altButton = st.button(label='Alterar',
@@ -56,8 +55,8 @@ def Reg_Tab_Gen_R(filtro):
         st.error('Houve um Problema com a pesquisa')
     
     if regButton:
-        Pg_C.insTab(selIndex)
+        Pg_C.insTab(filtro)
     if altButton:
-        st.write(Pg_U.altTab(selIndex))
+        Pg_U.altTab(selIndex)
     if delButton:
         Pg_D.delTab(selIndex)

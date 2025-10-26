@@ -5,43 +5,43 @@ import Controllers.crudCursos as ctb
 
 @st.dialog('Cursos - Criação de Registros')
 def insCursos():
-    
-    est = ''
 
     nNomCur = st.text_input(label='Nome do Curso',
                                 max_chars=30,
                                 )
     
-    escSit = st.selectbox(label='Situação do Curso',
-                        options=lst.listTabGer('sit_cur'),
-                        placeholder='Insira a Cidade',
-                        format_func=lambda x: x['descricao']
-                        )
-    nSit = escSit['valor']
+    escEstado = st.selectbox(label='Situação do Curso',
+                            options=lst.listTabGer('sit_cur'),
+                            placeholder='Insira a Cidade',
+                            format_func=lambda x: x['descricao']
+                            )
+    nEstado = escEstado['valor']
 
-    flagDestivado = False if nSit == '1' else True
+    flagDestivado = False if nEstado == '1' else True
     if flagDestivado:
-        st.session_state.tEst = False
+        st.session_state.tSit = False
     
-    nEstado = st.toggle(label= 'Estado do Curso',
+    
+    sit = ''
+    nSit = st.toggle(label= 'Estado do Curso',
                         disabled=flagDestivado,
                         value=False,
-                        key='tEst'
+                        key='tSit'
                         )
 
-    if nEstado:
+    if nSit:
         st.write('Ativo')
-        est = 'Ativo'
+        sit = 'Ativo'
     else:
         st.write('Inativo')
-        est = 'Inativo'
+        sit = 'Inativo'
 
     nDatInc = datetime.date.today()
 
     parametros = {'nom_cur': nNomCur,
                   'dat_inc': nDatInc,
-                  'sit': nSit,
-                  'estado': est}
+                  'sit': sit,
+                  'estado': nEstado}
 
     col1, col2, col3, col4, col5 = st.columns(5)
     with col5:

@@ -4,7 +4,7 @@ import Controllers.crudTabGen as ctb
 @st.dialog('Tabelas Genéricas - Exclusão de Registros')
 def delTab(parametro):
 
-    st.write(f'Tem certeza que quer excluir o registro {parametro[1]}')
+    st.write(f'Tem certeza que quer excluir o registro {parametro['valor']} - {parametro['descricao']} ?')
 
     col1, col2, col3, col4, col5 = st.columns(5)
     with col5:
@@ -12,4 +12,4 @@ def delTab(parametro):
                               width='stretch')
     if delButton:
         st.spinner()
-        ctb.excluir([parametro[0], parametro[1]])
+        ctb.excluir(parametro)
