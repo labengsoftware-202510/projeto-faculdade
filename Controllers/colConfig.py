@@ -42,3 +42,24 @@ def colConfigCursos():
                                          disabled=True,)
     }
     return config
+
+def colConfigDisciplina():
+    config = {
+        'cod_dis':None,
+        'nom_dis': st.column_config.Column(label='Nome da Disciplina',
+                                         disabled=True,),
+        'dat_inc': st.column_config.Column(label='Data de Inclusão',
+                                         disabled=True,),
+        'tipo': None,
+        'tipo_desc':st.column_config.Column(label='Tipo',
+                                         disabled=True,),
+        'crg_hor_semanal':st.column_config.Column(label='Carga Horária Semanal',
+                                                  disabled=True,),
+        'crg_hor_min_semestral': st.column_config.Column(label='Carga Horária minima Semestral',
+                                                         disabled=True,),
+        'sit': st.column_config.Column(label='Situação',
+                                         disabled=True,),
+        'estado': st.column_config.Column(label='Estado',
+                                         disabled=True,)
+    }
+    return config

@@ -4,11 +4,12 @@ from sqlalchemy import text
 
 def select(parametros):
     try:
-        selectQuery = f"select cursos.cod_cur, cursos.nom_cur, cursos.dat_inc, cursos.sit, cursos.estado, tab_ger.descricao as est_desc "
-        selectQuery += f" from cursos, tab_ger "
-        selectQuery += f" where cursos.estado = tab_ger.valor and tab_ger.dominio = 'sit_cur' "
+        selectQuery = f"select disc.cod_dis, disc.nom_dis, disc.dat_inc, disc.tipo, ger.descricao as tipo_desc, disc.crg_hor_semanal, disc.crg_hor_min_semestral, disc.sit"
+        selectQuery += f" from disciplinas disc, tab_ger ger "
+        selectQuery += f"where ger.dominio = 'tip_dis' "
+        selectQuery += f"and ger.valor = disc.tipo "
         if (parametros is not None) or (parametros != ''):
-            selectQuery += f"and nom_cur like '%{parametros}%'"
+            selectQuery += f"and nom_dis like '%{parametros}%'"
         selectQuery += ";"
 
         conn = st.connection('mysql', type='sql')
@@ -24,11 +25,11 @@ def inserir(parametros):
     try:
         conn = st.connection('mysql', type='sql')
         with conn.session as session:
-            insertCommand = f"insert into cursos (nom_cur, dat_inc, sit, estado) "
-            insertCommand += f"values (:nom_cur, :dat_inc, :sit, :estado);"
+            insertCommand = f"insert into disciplinas (nom_dis, dat_inc, tipo, crg_hor_semanal, crg_hor_min_semestral, sit) "
+            insertCommand += f"values (:nom_dis, :dat_inc, :tipo, :crg_hor_semanal, :crg_hor_min_semestral, :sit);"
             session.execute(text(insertCommand), parametros)
             session.commit()
-            statsMsg.operacaoSucesso(f'Registro {parametros['nom_cur']} incluida com sucesso!') 
+            statsMsg.operacaoSucesso(f'Registro {parametros['nom_dis']} incluida com sucesso!') 
             st.cache_data.clear()
             st.rerun()
     except Exception as e:
@@ -40,12 +41,12 @@ def alterar(parametros):
     try:
         conn = st.connection('mysql', type='sql')
         with conn.session as session:
-            updateCommand = f"update cursos "
-            updateCommand += f"set nom_cur = :nom_cur, sit = :sit, estado = :estado "
-            updateCommand += f"where cod_cur = :cod_cur;"
+            updateCommand = f"update disciplinas "
+            updateCommand += f"set nom_dis = :nom_dis, tipo = :tipo, crg_hor_semanal = :crg_hor_semanal, crg_hor_min_semestral = :crg_hor_min_semestral, sit = :sit "
+            updateCommand += f"where cod_dis = :cod_dis;"
             session.execute(text(updateCommand), parametros)
             session.commit()
-            statsMsg.operacaoSucesso(f'Registro {parametros['nom_cur']} alterada com sucesso!')
+            statsMsg.operacaoSucesso(f'Registro {parametros['nom_dis']} alterada com sucesso!')
             st.cache_data.clear()
             st.rerun()
     except Exception as e:
@@ -57,11 +58,11 @@ def excluir(parametros):
     try:
         conn = st.connection('mysql', type='sql')
         with conn.session as session:
-            deleteCommand = f"delete from cursos "
-            deleteCommand += f"where cod_cur = :cod_cur;"
+            deleteCommand = f"delete from disciplinas "
+            deleteCommand += f"where cod_dis = :cod_dis;"
             session.execute(text(deleteCommand), parametros)
             session.commit()            
-            statsMsg.operacaoSucesso(f'Registro {parametros['nom_cur']} deletado com sucesso!')            
+            statsMsg.operacaoSucesso(f'Registro {parametros['nom_dis']} deletado com sucesso!')            
             st.cache_data.clear()
             st.rerun()
     except Exception as e:

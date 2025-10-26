@@ -20,6 +20,23 @@ def listTabGer(filtro):
     dfRetorno = pd.concat([df,addRow],ignore_index=True)
     return dfRetorno.to_dict('records')
 
+def listaCep():
+    selectQuery = f"select cep "
+    selectQuery += f"from tab_ger "
+    conn = st.connection('mysql', type='sql')
+    df = pd.DataFrame([{'cep':''}])
+    addRow = conn.query(selectQuery,
+                        ttl=600)
+    
+    dfRetorno = pd.concat([df,addRow],ignore_index=True)
+    return dfRetorno.to_dict('records')
+
+def buscaCep(lista, valorBuscado):
+    for item in enumerate(lista):
+        if item['cep'] == valorBuscado:
+            return True
+    return False
+
 def buscaIndex(lista, valorBuscado):
     for index, item in enumerate(lista):
         if item['valor'] == valorBuscado:

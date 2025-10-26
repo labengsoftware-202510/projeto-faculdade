@@ -1,5 +1,18 @@
 import streamlit as st
 
+def setSessionState():
+    if 'usuario' not in st.session_state:
+        st.session_state['usuario'] = ''
+    if 'RI' not in st.session_state:
+        st.session_state['RI'] = None
+    if 'perfil' not in st.session_state:
+        st.session_state['perfil'] = ''
+    if 'commandOk' not in st.session_state:
+        st.session_state['commandOk'] = True
+    if 'statusMessage' not in st.session_state:
+        st.session_state['statusMessage'] = ''
+    
+
 def initStatusMsg():
     if 'commandOk' not in st.session_state:
         st.session_state['commandOk'] = True
