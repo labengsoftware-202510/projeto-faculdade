@@ -11,10 +11,11 @@ def insDisciplina():
                                 )
     
     listaTipo = lst.listTabGer('tip_dis')
-    nTipo = st.selectbox(label='Tipo da Disciplina',
+    selectTipo = st.selectbox(label='Tipo da Disciplina',
                          options=listaTipo,
                          format_func=lambda x: x['descricao'],
                         )
+    nTipo = selectTipo['valor']
     
     nCrgHorSemanal = st.number_input(label='Carga Horária Semanal',
                                     step=1,
@@ -44,7 +45,7 @@ def insDisciplina():
     nDatInc = datetime.date.today()
 
     parametros = {'nom_dis': nNomDis,
-                  'tipo': nTipo['valor'],
+                  'tipo': nTipo,
                   'crg_hor_semanal': nCrgHorSemanal,
                   'crg_hor_min_semestral': nCrgHorMinSemestral,
                   'dat_inc': nDatInc,

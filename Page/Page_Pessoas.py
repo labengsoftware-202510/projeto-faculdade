@@ -4,7 +4,7 @@ import Controllers.listas as lst
 
 
 #parametros da pagina ao mostrar no browser
-st.set_page_config(page_title= 'Disciplinas', 
+st.set_page_config(page_title= 'Pessoas', 
                 layout= 'wide',
                 initial_sidebar_state= 'collapsed')
 
@@ -18,13 +18,13 @@ col1, col2, col3 = st.columns(3)
 with col1:
     pessoasFiltro = st.text_input(label='Pessoas',)
 with col2:
-    lista = lst.listTabGer('cat_pes')
+    lista = lst.listTabGer('crg_pes')
     categoriaFiltro = st.selectbox(label='Categoria',
                                     options=lista,
                                     format_func=lambda x:x['descricao'])
 
 filtro = {'fNome': pessoasFiltro,
-          'fCategoria': categoriaFiltro}
+          'fCategoria': categoriaFiltro['valor']}
 
 #redireciona para o script de página de listagem da tabela
 Pg_R.pessoasR(filtro)

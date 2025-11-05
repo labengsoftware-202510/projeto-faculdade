@@ -25,7 +25,7 @@ def operacaoSucesso(mensagem):
         st.session_state['statusMessage'] = mensagem
     else:        
         st.session_state.commandOk = True
-        st.session_state.statusMessage = mensagem
+        st.session_state.statusMessage += ('\n' + mensagem)
 
 def operacaoErro(mensagem):
     if 'commandOk' not in st.session_state or 'statusMessage' not in st.session_state:
@@ -33,7 +33,7 @@ def operacaoErro(mensagem):
         st.session_state['statusMessage'] = mensagem
     else:        
         st.session_state.commandOk = False
-        st.session_state.statusMessage = mensagem
+        st.session_state.statusMessage += ('\n' + mensagem)
 
 def mostraMensagem():
     if ('commandOk' in st.session_state) and ('statusMessage' in st.session_state):

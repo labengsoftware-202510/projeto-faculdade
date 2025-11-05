@@ -63,3 +63,31 @@ def colConfigDisciplina():
                                          disabled=True,)
     }
     return config
+
+def colConfigPessoas():
+    config = {
+        'reg_ins':st.column_config.Column(label='Registro Institucional',
+                                         disabled=True,),
+        'categoria': None,
+        'descricao': st.column_config.Column(label='Categoria',
+                                         disabled=True,),
+        'nom_com': st.column_config.Column(label='Nome Completo',
+                                         disabled=True,),
+        'cpf': None,
+        'cpf_format': st.column_config.Column(label='CPF',
+                                         disabled=True,),
+        'dat_nas':None,
+        'Data':st.column_config.Column(label='Data de Nascimento',
+                                                  disabled=True,),
+        'sit': st.column_config.Column(label='Situação',
+                                         disabled=True,),
+        'cep': None,
+        'cep_format': None,
+        'logradouro': None,
+        'num': None,
+        'comp': None,
+        'bairro': None,
+        'cidade': None,
+        'estado': None,
+    }
+    return config

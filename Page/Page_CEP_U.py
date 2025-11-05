@@ -8,7 +8,7 @@ def altCEP(parametros):
     
     nCep =st.text_input(label='CEP',
                     max_chars=8,
-                    placeholder='00000000',
+                    placeholder='00000-000',
                     value=parametros['cep'],
                     disabled=True,
                     )
@@ -30,8 +30,9 @@ def altCEP(parametros):
                             placeholder='Insira a Cidade',
                             value=parametros['cidade'],
                             )
+    
     nEstIndex = lst.buscaIndex(lista, parametros['estado'])
-    nEstado = st.selectbox(label= 'Filtro por Estados',
+    nEstado = st.selectbox(label= 'Estados',
                                 options= lista,
                                 format_func= lambda record: f'{record["descricao"]}',
                                 index= nEstIndex,
