@@ -2,7 +2,7 @@ import streamlit as st
 import Controllers.estSessaoMsg as sessao
 
 st.set_page_config(
-    page_title= 'Home',
+    page_title= 'Gerenciador Escolar',
     layout= 'wide',
     initial_sidebar_state= 'collapsed'
 )
