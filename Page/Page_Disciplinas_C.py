@@ -3,7 +3,7 @@ import datetime
 import Controllers.listas as lst
 import Controllers.crudDisciplinas as ctb
 
-@st.dialog('Matérias - Criação de Registros')
+@st.dialog('Disciplina - Criação de Registros')
 def insDisciplina():
 
     nNomDis = st.text_input(label='Nome da Disciplina',

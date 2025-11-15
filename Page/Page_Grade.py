@@ -1,15 +1,15 @@
 import streamlit as st #biblioteca base
 import Controllers.listas as lst
-import Page.Page_Turmas_R as Pg_R   #script da página de listagem da tabelas genéricas
+import Page.Page_Grade_R as Pg_R   #script da página de listagem da tabelas genéricas
 
 
 #parametros da pagina ao mostrar no browser
-st.set_page_config(page_title= 'Turmas', 
+st.set_page_config(page_title= 'Grade Curricular', 
                 layout= 'wide',
                 initial_sidebar_state= 'collapsed')
 
 #titulo da página
-st.title('Turmas')
+st.title('Grade Curricular')
 
 col1, col2, col3, col4, col5 = st.columns(5)
 

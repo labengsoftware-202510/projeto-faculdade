@@ -31,7 +31,7 @@ def select(parametros):
         return [False,0]
         
 
-def inserir(parametros,flag = False):
+def inserir(parametros):
     try:
         conn = st.connection('mysql', type='sql')
         with conn.session as session:
@@ -41,12 +41,10 @@ def inserir(parametros,flag = False):
             session.commit()
             cepMsg = parametros['cep']
             cepFmt = f'{cepMsg[:5]}-{cepMsg[5:]}'
-            if not flag:
-                statsMsg.operacaoSucesso(f'Registro {cepFmt} incluida com sucesso!',)
-                st.cache_data.clear()
-                st.rerun()
+            statsMsg.operacaoSucesso(f'Registro {cepFmt} incluida com sucesso!',)
+            st.cache_data.clear()
+            st.rerun()
     except Exception as e:
-        if not flag:
             statsMsg.operacaoErro(f'Erro: {e}')
             st.cache_data.clear()
             st.rerun()

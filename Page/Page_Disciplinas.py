@@ -14,4 +14,4 @@ disciplinaFiltro = st.text_input(label='Disciplinas',
                              )
 
 #redireciona para o script de página de listagem da tabela
-Pg_R.materiasR(disciplinaFiltro)
+Pg_R.disciplinasR(disciplinaFiltro)

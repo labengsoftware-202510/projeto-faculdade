@@ -16,6 +16,7 @@ pages = {
         st.Page("Page/Page_CEP.py", title="CEP's"),
         st.Page("Page/Page_Cursos.py", title= 'Cursos'),
         st.Page("Page/Page_Disciplinas.py", title='Disciplinas'),
+        st.Page("Page/Page_Grade.py", title='Grade de Disciplinas'),
         st.Page("Page/Page_Turmas.py", title='Turmas'),
         st.Page("Page/Page_Pessoas.py", title='Pessoas'),
         st.Page("Page/Page_Matriculas.py", title='Matriculas'),
