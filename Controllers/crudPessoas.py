@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import datetime as datetime
-import Controllers.listas as lst
 import Controllers.estSessaoMsg as statsMsg
 from sqlalchemy import text 
 

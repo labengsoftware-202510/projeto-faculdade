@@ -35,10 +35,10 @@ def colConfigCursos():
                                          disabled=True,),
         'dat_inc': st.column_config.Column(label='Data de Inclusão',
                                          disabled=True,),
-        'sit': None,
-        'sit_desc': st.column_config.Column(label='Situação',
+        'sit': st.column_config.Column(label='Situação',
                                          disabled=True,),
-        'estado': st.column_config.Column(label='Estado',
+        'estado': None,
+        'est_desc': st.column_config.Column(label='Estado',
                                          disabled=True,)
     }
     return config
@@ -89,5 +89,34 @@ def colConfigPessoas():
         'bairro': None,
         'cidade': None,
         'estado': None,
+    }
+    return config
+
+def colConfigGrade():
+    config = {
+        'id_grade':st.column_config.Column(label='Código da Grade',
+                                         disabled=True,),
+        'cod_cur': None,
+        'nom_cur': st.column_config.Column(label='Curso',
+                                         disabled=True,),
+        'cod_dis': None,
+        'nom_dis': st.column_config.Column(label='Disciplina',
+                                         disabled=True,),
+        'sem_ind': st.column_config.Column(label='Semestre Indicado',
+                                         disabled=True,),
+        'estado':st.column_config.Column(label='Estado',
+                                         disabled=True,),
+        'sit': st.column_config.Column(label='Situação',
+                                         disabled=True,),
+        'dat_ini':None,
+        'data_inicio':st.column_config.Column(label='Data de Início',
+                                              disabled=True,),
+        'dat_fin':None,
+        'data_final':st.column_config.Column(label='Data de Término',  
+                                              disabled=True,),
+        'id_grade_n':st.column_config.Column(label='Grade Substituta',
+                                         disabled=True,),
+        'id_grade_d':st.column_config.Column(label='Grade Dependente',
+                                         disabled=True,)
     }
     return config

@@ -1,12 +1,12 @@
 import streamlit as st
-import Controllers.crudDisciplinas as ctb
+import Controllers.crudGrade as ctb
 import Controllers.colConfig as cc
 import Controllers.estSessaoMsg as statsMsg #script para o status de sessão e mensagens de sistema
-import Page.Page_Disciplinas_C as Pg_C
-import Page.Page_Disciplinas_U as Pg_U
-import Page.Page_Disciplinas_D as Pg_D
+import Page.Page_Grade_C as Pg_C
+import Page.Page_Grade_U as Pg_U
+import Page.Page_Grade_D as Pg_D
 
-def disciplinasR(filtros = None):
+def gradesR(filtros = None):
     selIndex = None
     fDesativado = True
 
@@ -21,8 +21,8 @@ def disciplinasR(filtros = None):
                                                 vertical_alignment='center')
     with col5:
         regButton = st.button(label='Registrar', 
-                                key='insDisciplinas',
-                                help='Click aqui para Inserir um novo Curso',
+                                key='insGrade',
+                                help='Click aqui para Inserir uma nova Grade',
                                 width='stretch')
 
     if tabela[0]:
@@ -31,16 +31,21 @@ def disciplinasR(filtros = None):
                             height=300,
                             selection_mode='single-row',
                             on_select='rerun',
-                            column_config=cc.colConfigDisciplina())
+                            column_config=cc.colConfigGrade())
         selRow = rowSel.selection.rows
         if selRow:
-            selIndex = {'cod_dis': dtFrame['cod_dis'].iloc[selRow].item(),
-                        'nom_dis': dtFrame['nom_dis'].iloc[selRow].item(),
-                        'dat_inc': dtFrame['dat_inc'].iloc[selRow].item(),
-                        'tipo': dtFrame['tipo'].iloc[selRow].item(),
-                        'crg_hor_semanal': dtFrame['crg_hor_semanal'].iloc[selRow].item(),
-                        'crg_hor_min_semestral': dtFrame['crg_hor_min_semestral'].iloc[selRow].item(),                        
-                        'sit': dtFrame['sit'].iloc[selRow].item()}
+            selIndex = {'id_grade': dtFrame['id_grade'].iloc[selRow].item(),
+                        'cod_cur': dtFrame['cod_cur'].iloc[selRow].item(),
+                        'cod_dis': dtFrame['cod_dis'].iloc[selRow].item(),
+                        'sem_ind': dtFrame['sem_ind'].iloc[selRow].item(),
+                        'estado': dtFrame['estado'].iloc[selRow].item(),
+                        'sit': dtFrame['sit'].iloc[selRow].item(),                        
+                        'dat_ini': dtFrame['dat_ini'].iloc[selRow].item(),
+                        'dat_fin': dtFrame['dat_fin'].iloc[selRow].item(),
+                        'id_grade_n': dtFrame['id_grade_n'].iloc[selRow].item(),
+                        'id_grade_d': dtFrame['id_grade_d'].iloc[selRow].item(),
+                        'nom_cur': dtFrame['nom_cur'].iloc[selRow].item(),
+                        'nom_dis': dtFrame['nom_dis'].iloc[selRow].item(),}
             fDesativado = False
         else:
             fDesativado = True
@@ -52,14 +57,14 @@ def disciplinasR(filtros = None):
         
         with col9:
             altButton = st.button(label='Alterar',
-                                    key='altDisciplinas',
+                                    key='altGrade',
                                     help='Click aqui para Alteara a Tabela',
                                     width='stretch',
                                     disabled=fDesativado,)
         
         with col10:
             delButton = st.button(label='Deletar',
-                                    key='delDisciplinas',
+                                    key='delGrade',
                                     help='Click aqui para Deletar a Tabela',
                                     width='stretch',
                                     disabled=fDesativado,)
@@ -67,8 +72,8 @@ def disciplinasR(filtros = None):
         st.error('Houve um Problema com a pesquisa')
     
     if regButton:
-        Pg_C.insDisciplina()
+        Pg_C.insGrade()
     if altButton:
-        Pg_U.altDisciplina(selIndex)
+        Pg_U.altGrade(selIndex)
     if delButton:
-        Pg_D.delDisciplinas(selIndex)
+        Pg_D.delGrade(selIndex)

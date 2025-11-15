@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 import datetime
 import Controllers.validacoes as validacoes
 import Controllers.listas as lst
@@ -21,66 +22,54 @@ def insPessoas():
     nCpf = nCpf.replace('.','').replace('-','')
     
     nDatNas  = st.date_input(label='Data de Nascimento',
-                            value=datetime.date.today(),
                             min_value=datetime.date(1900,1,1),)
     
     
-    nCep     =  st.text_input(label='CEP',
-                             max_chars=9,
-                                key='nCep',)
-    nCep = mask.cepUnmask(nCep)
+    nCep     =  st.selectbox(label='CEP',
+                             options= lst.listaCep(),
+                            format_func= lambda record: f'{record["cep_format"]}',
+                            )
+    nCep = nCep['cep']
+    if nCep:
+        nCep = f'{nCep:08}'
+
+    vLogradouro = ''
+    vBairro     = ''
+    vCidade     = ''
+    vEstado     = ''
     
     existe = False
     reg = None
-    nLogradouro = ''
-    nBairro = ''
-    nCidade = ''
-    nEstado = ''
     if validacoes.vCepNum(nCep):
-      existe,reg = cep.select({'cep':nCep})
-    
-    if existe:
+        existe,reg = cep.select({'cep':nCep})
+    if isinstance(reg, pd.DataFrame) and not reg.empty:
         vLogradouro = reg['logradouro'].iloc[0]
         vBairro     = reg['bairro'].iloc[0]
         vCidade     = reg['cidade'].iloc[0]
         vEstado     = reg['estado'].iloc[0]
-        
-        nLogradouro = st.text_input(label='Logradouro',
-                                    max_chars=30,
-                                    disabled=existe,
-                                    value=vLogradouro,)
-        
-        nBairro = st.text_input(label='Bairro',
-                                    max_chars=30,
-                                    disabled=existe,
-                                    value=vBairro,)
-        
-        nCidade = st.text_input(label='Cidade',
-                                    max_chars=30,
-                                    disabled=existe,
-                                    value=vCidade,)
-        
-        
-        nEstIndex = lst.buscaIndex(lista, vEstado)        
-        nEstado = st.selectbox(label= 'Estados',
-                                options= lista,
-                                format_func= lambda record: f'{record["descricao"]}',
-                                index= nEstIndex,
-                                )
-    else:
-        nLogradouro = st.text_input(label='Logradouro',
-                                    max_chars=30,)
-        
-        nBairro = st.text_input(label='Bairro',
-                                    max_chars=30,)
-        
-        nCidade = st.text_input(label='Cidade',
-                                    max_chars=30,)
-        
-        nEstado = st.selectbox(label= 'Estados',
-                                options= lista,
-                                format_func= lambda record: f'{record["descricao"]}',
-                                )
+    
+    nLogradouro = st.text_input(label='Logradouro',
+                                max_chars=30,
+                                disabled=existe,
+                                value=vLogradouro,)
+    
+    nBairro = st.text_input(label='Bairro',
+                                max_chars=30,
+                                disabled=existe,
+                                value=vBairro,)
+    
+    nCidade = st.text_input(label='Cidade',
+                                max_chars=30,
+                                disabled=existe,
+                                value=vCidade,)
+    
+    
+    nEstIndex = lst.buscaIndex(lista, vEstado)        
+    nEstado = st.selectbox(label= 'Estados',
+                            options= lista,
+                            format_func= lambda record: f'{record["descricao"]}',
+                            index= nEstIndex,
+                            )
         
     nNum     = st.number_input(label='Número',
                             )
@@ -115,12 +104,6 @@ def insPessoas():
                   'comp': nComp,
                   'categoria':nCategoria,
                   'sit': sit}
-    
-    parametrosC = {'cep': nCep,
-                   'logradouro': nLogradouro,
-                   'bairro': nBairro,
-                   'cidade': nCidade,
-                   'estado': nEstado,}
 
     col1, col2, col3, col4, col5 = st.columns(5)
     with col5:
@@ -129,6 +112,4 @@ def insPessoas():
     
     if insButton:
         st.spinner()
-        if not existe:
-            cep.inserir(parametrosC,flag=True)
         ctb.inserir(parametrosP)

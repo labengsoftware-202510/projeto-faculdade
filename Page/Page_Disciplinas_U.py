@@ -2,7 +2,7 @@ import streamlit as st
 import Controllers.listas as lst
 import Controllers.crudDisciplinas as ctb
 
-@st.dialog('Cursos - Criação de Registros')
+@st.dialog('Disciplina - Alteração de Registros')
 def altDisciplina(parametros):
 
     nCodDis = parametros['cod_dis']

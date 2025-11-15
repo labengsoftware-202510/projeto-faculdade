@@ -1,0 +1,21 @@
+CREATE TABLE `grade` (
+  `id_grade` int unsigned NOT NULL AUTO_INCREMENT,
+  `cod_cur` smallint unsigned NOT NULL,
+  `cod_dis` int unsigned NOT NULL,
+  `sem_ind` tinyint unsigned DEFAULT NULL,
+  `estado` varchar(30) DEFAULT NULL,
+  `sit` enum('Ativo','Inativo') DEFAULT NULL,
+  `id_grade_n` int unsigned DEFAULT NULL,
+  `id_grade_d` int unsigned DEFAULT NULL,
+  `dat_ini` date DEFAULT NULL,
+  `dat_fin` date DEFAULT NULL,
+  PRIMARY KEY (`id_grade`),
+  UNIQUE KEY `unico_cur_dis` (`cod_cur`,`cod_dis`),
+  KEY `fk_disciplina` (`cod_dis`),
+  KEY `fk_grade_nova` (`id_grade_n`),
+  KEY `fk_grade_dependente` (`id_grade_d`),
+  CONSTRAINT `fk_cursos` FOREIGN KEY (`cod_cur`) REFERENCES `cursos` (`cod_cur`),
+  CONSTRAINT `fk_disciplina` FOREIGN KEY (`cod_dis`) REFERENCES `disciplinas` (`cod_dis`),
+  CONSTRAINT `fk_grade_dependente` FOREIGN KEY (`id_grade_d`) REFERENCES `grade` (`id_grade`),
+  CONSTRAINT `fk_grade_nova` FOREIGN KEY (`id_grade_n`) REFERENCES `grade` (`id_grade`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
