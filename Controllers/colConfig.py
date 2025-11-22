@@ -120,3 +120,25 @@ def colConfigGrade():
                                          disabled=True,)
     }
     return config
+
+def colConfigTurmas():
+    config = {
+        'cod_tur':st.column_config.Column(label='Código da Turma',
+                                         disabled=True,),
+        'id_grade': None,
+        'nom_cur': st.column_config.Column(label='Curso',
+                                         disabled=True,),
+        'nom_dis': st.column_config.Column(label='Disciplina',
+                                         disabled=True,),
+        'cap_max': st.column_config.Column(label='Capacidade Máxima',
+                                         disabled=True,),
+        'dia_oco': st.column_config.Column(label='Dia de Ocorrência',
+                                         disabled=True,),
+        'periodo': st.column_config.Column(label='Período',
+                                         disabled=True,),
+        'prof_resp': st.column_config.Column(label='Professor Responsável',
+                                         disabled=True,),
+        'sit': st.column_config.Column(label='Situação',
+                                         disabled=True,),
+    }
+    return config

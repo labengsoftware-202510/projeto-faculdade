@@ -1,0 +1,900 @@
+﻿cod_dis,nom_dis,dat_inc,tipo,crg_hor_semanal,carga,inativa
+1,Administração Geral,1974-08-21,Obrigatoria,4,80,ativa
+2,Algoritmos e Lógica de Programação ,1974-08-21,Obrigatoria,4,80,ativa
+3,Arquitetura e Organização de Computadores,1974-08-21,Obrigatoria,4,80,ativa
+4,Matemática Discreta,1974-08-21,Obrigatoria,4,80,ativa
+5,Programação em Microinformática ,1974-08-21,Obrigatoria,4,80,ativa
+6,Comunicação e Expressão ,1974-08-21,Obrigatoria,4,80,ativa
+7,Laboratório de Arquitetura e Organização de Computadores,1974-08-21,Obrigatoria,4,80,ativa
+8,Linguagem de Programação,1974-08-21,Obrigatoria,4,80,ativa
+9,Matemática,1974-08-21,Obrigatoria,4,80,ativa
+10,Sistemas de Informação,1974-08-21,Obrigatoria,4,80,ativa
+11,Eletiva I,1974-08-21,Eletiva 1,4,80,ativa
+12,Estatística Aplicada ,1974-08-21,Obrigatoria,4,80,ativa
+13,Estruturas de Dados ,1974-08-21,Obrigatoria,4,80,ativa
+14,Laboratório de Hardware,1974-08-21,Obrigatoria,2,40,ativa
+15,Sistemas Operacionais I,1974-08-21,Obrigatoria,4,80,ativa
+16,Eletiva II,1974-08-21,Eletiva 2,4,80,ativa
+17,Contabilidade,1974-08-21,Obrigatoria,2,40,ativa
+18,Engenharia de Software I,1974-08-21,Obrigatoria,4,80,ativa
+19,Programação Linear e Aplicações ,1974-08-21,Obrigatoria,4,80,ativa
+20,Programação Orientada a Objetos,1974-08-21,Obrigatoria,4,80,ativa
+21,Eletiva III,1974-08-21,Eletiva 3,4,80,ativa
+22,Banco de Dados,1974-08-21,Obrigatoria,4,80,ativa
+23,Engenharia de Software II,1974-08-21,Obrigatoria,4,80,ativa
+24,Interação Humano Computador,1974-08-21,Obrigatoria,2,40,ativa
+25,Sistemas Operacionais II,1974-08-21,Obrigatoria,4,80,ativa
+26,Economia e Finanças ,1974-08-21,Obrigatoria,2,40,ativa
+27,Engenharia de Software III,1974-08-21,Obrigatoria,4,80,ativa
+28,Laboratório de Banco de Dados (Escolha I),1974-08-21,Obrigatoria,4,80,ativa
+29,Redes de Computadores,1974-08-21,Obrigatoria,4,80,ativa
+30,Segurança da Informação,1974-08-21,Obrigatoria,2,40,ativa
+31,Sistemas Distribuídos (Escolha I),1974-08-21,Obrigatoria,4,80,ativa
+32,Sociedade e Tecnologia ,1974-08-21,Obrigatoria,2,40,ativa
+33,Auditoria de Sistemas (Escolha II),1974-08-21,Obrigatoria,4,80,ativa
+34,Empreendedorismo,1974-08-21,Obrigatoria,2,40,ativa
+35,Gestão de Equipes,1974-08-21,Obrigatoria,2,40,ativa
+36,Gestão de Projetos,1974-08-21,Obrigatoria,4,80,ativa
+37,Laboratório de Engenharia de Software,1974-08-21,Obrigatoria,4,80,ativa
+38,Laboratório de Redes (Escolha II),1974-08-21,Obrigatoria,4,80,ativa
+39,Metodologia de Pesquisa Científco-Tecnológica,1974-08-21,Obrigatoria,2,40,ativa
+40,Ética e Responsabilidade Profissional,1974-08-21,Obrigatoria,2,40,ativa
+41,Gestão e Governança de Tecnologia da Informação,1974-08-21,Obrigatoria,4,80,ativa
+42,Inteligência Artificial (Escolha III),1974-08-21,Obrigatoria,4,80,ativa
+43,Projeto de Redes de Computadores (Escolha III),1974-08-21,Obrigatoria,4,80,ativa
+44,Seminários em Informática,1974-08-21,Obrigatoria,2,40,ativa
+45,Sistemas Operacionais de Redes de Computadores (Escolha IV) ,1974-08-21,Obrigatoria,4,80,ativa
+46,Tópicos Especiais em Informática (Escolha IV),1974-08-21,Obrigatoria,4,80,ativa
+47,Trabalho de Conclusão de Curso,1974-08-21,Obrigatoria,8,160,ativa
+48,Estágio Supervisionado,1974-08-21,Obrigatoria,12,240,ativa
+49,Análise de Algoritmos,1974-08-21,Obrigatoria,4,80,ativa
+50,Linguagem de Programação I – Cobol,1974-08-21,Obrigatoria,4,80,ativa
+51,Linguagem de Programação II – Visual Basic,1974-08-21,Obrigatoria,4,80,ativa
+52,Linguagem de Programação III – Java,1974-08-21,Obrigatoria,4,80,ativa
+53,Linguagem de Programação IV – Internet,1974-08-21,Obrigatoria,4,80,ativa
+54,Linguagem de Programação V – Delphi,1974-08-21,Obrigatoria,4,80,ativa
+55,Linguagem de Programação VI – Java Avançado,1974-08-21,Obrigatoria,4,80,ativa
+56,Linguagem de Programação VII – Delphi Avançado,1974-08-21,Obrigatoria,4,80,ativa
+57,Linguagem de Programação VIII – VB. NET e ASP,1974-08-21,Obrigatoria,4,80,ativa
+58,Métodos Quantitativos e Aplicações,1974-08-21,Obrigatoria,4,80,ativa
+59,Microinformática Aplicada,1974-08-21,Obrigatoria,4,80,ativa
+60,Programação Avançada Orientada a Objetos,1974-08-21,Obrigatoria,4,80,ativa
+61,Programação de Scripts,1974-08-21,Obrigatoria,4,80,ativa
+62,Programação para Automação Industrial ,1974-08-21,Obrigatoria,4,80,ativa
+63,Programação em Lógica,1974-08-21,Obrigatoria,4,80,ativa
+64,Programação para Bancos de Dados,1974-08-21,Obrigatoria,4,80,ativa
+65,Programação para Dispositivos Móveis,1974-08-21,Obrigatoria,4,80,ativa
+66,Programação para Mainframe,1974-08-21,Obrigatoria,4,80,ativa
+67,Programação WEB,1974-08-21,Obrigatoria,4,80,ativa
+68,Semiótica Aplicada a Sistemas de Informação,1974-08-21,Obrigatoria,4,80,ativa
+69,Software Livre,1974-08-21,Obrigatoria,4,80,ativa
+70,Testes de Software,1974-08-21,Obrigatoria,4,80,ativa
+71,Tecnologia em Secretariado I,1991-09-30,Obrigatoria,4,80,ativa
+72,Língua Inglesa I,1991-09-30,Obrigatoria,4,80,ativa
+73,Espanhol I,1991-09-30,Obrigatoria,4,80,ativa
+74,Língua Portuguesa I,1991-09-30,Obrigatoria,4,80,ativa
+75,Informática I,1991-09-30,Obrigatoria,4,80,ativa
+76,Fundamentos da Administração,1991-09-30,Obrigatoria,4,80,ativa
+77,Fundamentos da Internacionalização,1991-09-30,Obrigatoria,4,80,ativa
+78,Tecnologia em Secretariado II,1991-09-30,Obrigatoria,4,80,ativa
+79,Língua Inglesa II,1991-09-30,Obrigatoria,4,80,ativa
+80,Espanhol II,1991-09-30,Obrigatoria,4,80,ativa
+81,Língua Portuguesa II,1991-09-30,Obrigatoria,4,80,ativa
+82,Informática II,1991-09-30,Obrigatoria,4,80,ativa
+83,Economia,1991-09-30,Obrigatoria,4,80,ativa
+84,Tecnologia em Secretariado III,1991-09-30,Obrigatoria,4,80,ativa
+85,Língua Inglesa III,1991-09-30,Obrigatoria,4,80,ativa
+86,Espanhol III,1991-09-30,Obrigatoria,4,80,ativa
+87,Língua Portuguesa III,1991-09-30,Obrigatoria,4,80,ativa
+88,Análise de Sistemas de Automação de Escritórios I,1991-09-30,Obrigatoria,4,80,ativa
+89,Tecnologia em Secretariado IV,1991-09-30,Obrigatoria,4,80,ativa
+90,Língua Inglesa IV,1991-09-30,Obrigatoria,4,80,ativa
+91,Análise de Sistemas de Automação de Escritórios II,1991-09-30,Obrigatoria,4,80,ativa
+92,Processos Gerenciais,1991-09-30,Obrigatoria,4,80,ativa
+93,Lógica Aplicada a Gestão,1991-09-30,Obrigatoria,4,80,ativa
+94,Noções de Estatística,1991-09-30,Obrigatoria,4,80,ativa
+95,Alemão I,1991-09-30,Obrigatoria,4,80,ativa
+96,Francês I,1991-09-30,Obrigatoria,4,80,ativa
+97,Gestão de Pessoas,1991-09-30,Obrigatoria,4,80,ativa
+98,Empreendedorismo,1991-09-30,Obrigatoria,4,80,ativa
+99,Fundamentos da Matemática Financeira,1991-09-30,Obrigatoria,4,80,ativa
+100,Metodologia da pesquisa,1991-09-30,Obrigatoria,4,80,ativa
+101,Alemão II,1991-09-30,Obrigatoria,4,80,ativa
+102,Francês II,1991-09-30,Obrigatoria,4,80,ativa
+103,Gestão Financeira,1991-09-30,Obrigatoria,4,80,ativa
+104,Tópicos Avançados em Gestão Internacional,1991-09-30,Obrigatoria,4,80,ativa
+105,Gestão de Marketing,1991-09-30,Obrigatoria,4,80,ativa
+106,Alemão III,1991-09-30,Obrigatoria,4,80,ativa
+107,Francês III,1991-09-30,Obrigatoria,4,80,ativa
+108,Marketing Internacional,1991-09-30,Obrigatoria,4,80,ativa
+109,Tópicos Contemporâneos da Gestão Secretarial,1991-09-30,Obrigatoria,4,80,ativa
+110,Sociologia do Mundo Contemporâneo,1991-09-30,Obrigatoria,4,80,ativa
+111,Direito,1991-09-30,Obrigatoria,4,80,ativa
+112,Métodos de Cálculo I,1973-04-10,Obrigatoria,6,120,ativa
+113,Desenho Técnico de Construção Civil,1973-04-10,Obrigatoria,2,40,ativa
+114,Física Aplicada I,1973-04-10,Obrigatoria,5,100,ativa
+115,Humanidades,1973-04-10,Obrigatoria,4,80,ativa
+116,Português,1973-04-10,Obrigatoria,3,60,ativa
+117,Desenho de Construção Civil Assistido por Computador,1973-04-10,Obrigatoria,3,60,ativa
+118,Construções Civis – Implantação da Obra,1973-04-10,Obrigatoria,2,40,ativa
+119,Métodos de Cálculo II,1973-04-10,Obrigatoria,6,120,ativa
+120,Física Aplicada II,1973-04-10,Obrigatoria,5,100,ativa
+121,Relações Humanas e Direito Trabalhista,1973-04-10,Obrigatoria,2,40,ativa
+122,Materiais para Construção Civil I,1973-04-10,Obrigatoria,4,80,ativa
+123,Desenho de Construção Civil para Aprovação,1973-04-10,Obrigatoria,3,60,ativa
+124,Construções Civis – Solos,1973-04-10,Obrigatoria,3,60,ativa
+125,Construções Civis - Segurança do Trabalho na ,1973-04-10,Obrigatoria,2,40,ativa
+Construção Civil,10/04/1973,Obrigatoria,2,40,ativa,ativa
+126,Desenho de Construção Civil para Execução,1973-04-10,Obrigatoria,3,60,ativa
+127,Estatística,1973-04-10,Obrigatoria,2,40,ativa
+128,Materiais para Construção Civil II,1973-04-10,Obrigatoria,5,100,ativa
+129,Estática e Resistência dos Materiais I,1973-04-10,Obrigatoria,4,80,ativa
+130,Eletricidade Aplicada I,1973-04-10,Obrigatoria,3,60,ativa
+131,Topografia,1973-04-10,Obrigatoria,3,60,ativa
+132,Práticas Construtivas – Fundações e Acessos,1973-04-10,Obrigatoria,5,100,ativa
+133,Legislação e Contratos na Construção Civil,1973-04-10,Obrigatoria,2,40,ativa
+134,Eletricidade Aplicada II,1973-04-10,Obrigatoria,5,100,ativa
+135,Desenho de Construção Civil em Maquete Eletrônica,1973-04-10,Obrigatoria,2,40,ativa
+136,Estruturas I,1973-04-10,Obrigatoria,4,80,ativa
+137,Materiais para Construção Civil III,1973-04-10,Obrigatoria,3,60,ativa
+138,Estática e Resistência dos Materiais II,1973-04-10,Obrigatoria,4,80,ativa
+139,Práticas Construtivas – Execução de Estruturas,1973-04-10,Obrigatoria,4,80,ativa
+140,Práticas Construtivas – Alvenarias,1973-04-10,Obrigatoria,4,80,ativa
+141,Instalações Prediais Hidráulica,1973-04-10,Obrigatoria,3,60,ativa
+142,Instalações Prediais Elétrica,1973-04-10,Obrigatoria,3,60,ativa
+143,Estruturas II,1973-04-10,Obrigatoria,3,60,ativa
+144,Planejamento da Construção Civil I,1973-04-10,Obrigatoria,5,100,ativa
+145,Economia e Finanças em Projetos I,1973-04-10,Obrigatoria,2,40,ativa
+146,Práticas Construtivas - Acabamentos ,1973-04-10,Obrigatoria,4,80,ativa
+147,Disciplina Optativa,1973-04-10,Optativa,2,40,ativa
+148,Estruturas III,1973-04-10,Obrigatoria,3,60,ativa
+149,Instalações Prediais - Especiais,1973-04-10,Obrigatoria,3,60,ativa
+150,Planejamento da Construção Civil II,1973-04-10,Obrigatoria,4,80,ativa
+151,Economia e Finanças em Projetos II,1973-04-10,Obrigatoria,2,40,ativa
+152,Práticas Construtivas – Lesões em Edificações,1973-04-10,Obrigatoria,3,60,ativa
+153,Orçamento em Construção Civil,1973-04-10,Obrigatoria,4,80,ativa
+154,OPTATIVA,1973-04-10,Optativa,,,ativa
+155,Química dos Materiais para Construção Civil,1973-04-10,Obrigatoria,2,40,ativa
+156,Sustentabilidade na Construção de Edifícios,1973-04-10,Obrigatoria,2,40,ativa
+157,Metodologia da Pesquisa Tecnológica,1973-04-10,Obrigatoria,2,40,ativa
+158,Gestão de Obras,1973-04-10,Obrigatoria,2,40,ativa
+159,Estabilidade das Construções,1973-04-10,Obrigatoria,2,40,ativa
+160,- Cálculo Diferencial e Integral I,1991-01-01,Obrigatoria,4,80,ativa
+161,- Estatística I,1991-01-01,Obrigatoria,2,40,ativa
+162,- Física Mecânica,1991-01-01,Obrigatoria,6,120,ativa
+163,- Programação de Computadores,1991-01-01,Obrigatoria,6,120,ativa
+164,- Química Tecnológica,1991-01-01,Obrigatoria,4,80,ativa
+165,- Redação Técnica,1991-01-01,Obrigatoria,4,80,ativa
+166,- CAD Elétrico,1991-01-01,Obrigatoria,2,40,ativa
+167,- Cálculo Diferencial e Integral II,1991-01-01,Obrigatoria,4,80,ativa
+168,- Cálculo Numérico,1991-01-01,Obrigatoria,2,40,ativa
+169,- Circuitos Elétricos,1991-01-01,Obrigatoria,6,120,ativa
+170,- Estatística II,1991-01-01,Obrigatoria,2,40,ativa
+171,- Física Eletromagnética,1991-01-01,Obrigatoria,6,120,ativa
+172,- Materiais Elétricos,1991-01-01,Obrigatoria,4,80,ativa
+173,- Cálculo Diferencial e Integral III,1991-01-01,Obrigatoria,4,80,ativa
+174,"- Controle de Qualidade, Confiabilidade e Análise de Falhas",1991-01-01,Obrigatoria,4,80,ativa
+175,- Sistemas Digitais I,1991-01-01,Obrigatoria,6,120,ativa
+176,- Dispositivos Semicondutores,1991-01-01,Obrigatoria,6,120,ativa
+177,- Empreendedorismo,1991-01-01,Obrigatoria,2,40,ativa
+178,- Processos em Semicondutores,1991-01-01,Obrigatoria,2,40,ativa
+179,- Tecnologia e Meio Ambiente,1991-01-01,Obrigatoria,2,40,ativa
+180,- Sistemas Digitais II,1991-01-01,Obrigatoria,4,80,ativa
+181,- Eletrônica I,1991-01-01,Obrigatoria,6,120,ativa
+182,- Instrumentação Eletrônica e Sensores,1991-01-01,Obrigatoria,4,80,ativa
+183,- Microcontroladores I,1991-01-01,Obrigatoria,6,120,ativa
+184,- Processos de Fabricação de Componentes Eletrônicos,1991-01-01,Obrigatoria,4,80,ativa
+185,- Telecomunicação I,1991-01-01,Obrigatoria,2,40,ativa
+186,- Controle,1991-01-01,Obrigatoria,2,40,ativa
+187,- Eletrônica II,1991-01-01,Obrigatoria,6,120,ativa
+188,- Microcontroladores II,1991-01-01,Obrigatoria,4,80,ativa
+189,- Metodologia de Pesquisa Científica e Tecnológica,1991-01-01,Obrigatoria,2,40,ativa
+190,- Optativa I,1991-01-01,Optativa,2,40,ativa
+191,- Optativa II,1991-01-01,Optativa,2,40,ativa
+192,- Telecomunicação II,1991-01-01,Obrigatoria,2,40,ativa
+193,- Eletrônica Aplicada,1991-01-01,Obrigatoria,4,80,ativa
+194,- Eletrônica de Potência,1991-01-01,Obrigatoria,4,80,ativa
+195,- Montagem Eletrônica,1991-01-01,Obrigatoria,4,80,ativa
+196,- Optativa III,1991-01-01,Optativa,2,40,ativa
+197,- Optativa IV,1991-01-01,Optativa,2,40,ativa
+198,- Projeto de Circuito Integrado,1991-01-01,Obrigatoria,4,80,ativa
+199,- Arquitetura de Redes,1991-01-01,Obrigatoria,2,40,ativa
+200,- Direito Ambiental e Sustentabilidade,1991-01-01,Obrigatoria,2,40,ativa
+201,- Dinâmica de Negócios da Indústria Manufatureira,1991-01-01,Obrigatoria,2,40,ativa
+202,- Estruturas de Dados,1991-01-01,Obrigatoria,4,80,ativa
+203,- Extração de Parâmetros de Componentes,1991-01-01,Obrigatoria,2,40,ativa
+204,- Fabricação de Componentes Passivos,1991-01-01,Obrigatoria,2,40,ativa
+205,- Fabricação de Placas de Circuito Impresso,1991-01-01,Obrigatoria,4,80,ativa
+206,- Gestão da Manufatura,1991-01-01,Obrigatoria,2,40,ativa
+207,- Humanidades,1991-01-01,Obrigatoria,2,40,ativa
+208,- Inglês Técnico,1991-01-01,Obrigatoria,2,40,ativa
+209,- Máquinas Elétricas,1991-01-01,Obrigatoria,2,40,ativa
+210,- Materiais Cerâmicos e Poliméricos,1991-01-01,Obrigatoria,2,40,ativa
+211,- Organização e Métodos da Produção,1991-01-01,Obrigatoria,2,40,ativa
+212,- Projeto e Controle Estatístico,1991-01-01,Obrigatoria,2,40,ativa
+213,- Planejamento e Controle da Produção,1991-01-01,Obrigatoria,2,40,ativa
+214,Turismo na Contemporaneidade,2008-01-01,Obrigatoria,4,80,ativa
+215,Tópicos em História Contemporânea,2008-01-01,Obrigatoria,4,80,ativa
+216,Economia Aplicada ao Turismo,2008-01-01,Obrigatoria,2,40,ativa
+217,Geografia Aplicada ao Turismo,2008-01-01,Obrigatoria,4,80,ativa
+218,Fundamentos da Hospitalidade,2008-01-01,Obrigatoria,2,40,ativa
+219,Comunicação e Expressão I,2008-01-01,Obrigatoria,2,40,ativa
+220,Inglês I,2008-01-01,Obrigatoria,2,40,ativa
+221,Espanhol I,2008-01-01,Obrigatoria,2,40,ativa
+222,Projeto Integrador I ,2008-01-01,Obrigatoria,2,40,ativa
+223,Operação e Agenciamento de Viagens,2008-01-01,Obrigatoria,4,80,ativa
+224,Patrimônio Cultural e Turismo,2008-01-01,Obrigatoria,4,80,ativa
+225,Comunicação e Expressão II,2008-01-01,Obrigatoria,2,40,ativa
+226,Sociologia do Lazer e do Turismo,2008-01-01,Obrigatoria,4,80,ativa
+227,"Marketing, Promoção e Comercialização do Destino Turístico",2008-01-01,Obrigatoria,4,80,ativa
+228,Inglês II,2008-01-01,Obrigatoria,2,40,ativa
+229,Espanhol II ,2008-01-01,Obrigatoria,2,40,ativa
+230,Projeto Integrador II ,2008-01-01,Obrigatoria,2,40,ativa
+231,Relações Internacionais no Turismo,2008-01-01,Obrigatoria,4,80,ativa
+232,Administração,2008-01-01,Obrigatoria,2,40,ativa
+233,Meios de Hospedagem,2008-01-01,Obrigatoria,4,80,ativa
+234,Meio Ambiente e Sustentabilidade para o Turismo,2008-01-01,Obrigatoria,4,80,ativa
+235,Transportes no Turismo,2008-01-01,Obrigatoria,2,40,ativa
+236,Comunicação e Expressão III,2008-01-01,Obrigatoria,2,40,ativa
+237,Inglês III ,2008-01-01,Obrigatoria,2,40,ativa
+238,Espanhol III ,2008-01-01,Obrigatoria,2,40,ativa
+239,Projeto Integrador III,2008-01-01,Obrigatoria,2,40,ativa
+240,Gestão de Eventos,2008-01-01,Obrigatoria,4,80,ativa
+241,Gastronomia e Turismo,2008-01-01,Obrigatoria,4,80,ativa
+242,Tecnologia da Informação e da Comunicação,2008-01-01,Obrigatoria,2,40,ativa
+243,Comunicação Multimodalidade em Turismo,2008-01-01,Obrigatoria,2,40,ativa
+244,"Estatística, Métricas e Indicadores de Turismo",2008-01-01,Obrigatoria,2,40,ativa
+245,Gestão de Pessoas em Empresas de Turismo,2008-01-01,Obrigatoria,2,40,ativa
+246,Comunicação e Expressão IV,2008-01-01,Obrigatoria,2,40,ativa
+247,Inglês IV ,2008-01-01,Obrigatoria,2,40,ativa
+248,Espanhol IV,2008-01-01,Obrigatoria,2,40,ativa
+249,Projeto Integrador IV ,2008-01-01,Obrigatoria,2,40,ativa
+250,Políticas Públicas para o Turismo,2008-01-01,Obrigatoria,2,40,ativa
+251,Estudo de Viabilidade Econômica Aplicado a Empresas de Turismo,2008-01-01,Obrigatoria,4,80,ativa
+252,"Sociedade, Espaço e Turismo",2008-01-01,Obrigatoria,2,40,ativa
+253,Gestão de Empresas Turísticas,2008-01-01,Obrigatoria,2,40,ativa
+254,Segurança e Acessibilidade na Atividade Turística,2008-01-01,Obrigatoria,2,40,ativa
+255,Métodos para Produção de Conhecimento,2008-01-01,Obrigatoria,2,40,ativa
+256,"Planejamento, Regionalidade e Competitividade do Destino Turístico ",2008-01-01,Obrigatoria,4,80,ativa
+257,Inglês V ,2008-01-01,Obrigatoria,2,40,ativa
+258,Espanhol V,2008-01-01,Obrigatoria,2,40,ativa
+259,Projeto Integrador V,2008-01-01,Obrigatoria,2,40,ativa
+260,Legislação Aplicada ao Turismo,2008-01-01,Obrigatoria,2,40,ativa
+261,Captação de Recursos para Projetos Turísticos,2008-01-01,Obrigatoria,4,80,ativa
+262,Desenvolvimento de Negócios,2008-01-01,Obrigatoria,4,80,ativa
+263,Optativa ,2008-01-01,Optativa,4,80,ativa
+264,Relações Interpessoais,2008-01-01,Obrigatoria,2,40,ativa
+265,Análise de Risco e Administração de Crises em Turismo,2008-01-01,Obrigatoria,2,40,ativa
+266,Inglês VI,2008-01-01,Obrigatoria,2,40,ativa
+267,Espanhol VI,2008-01-01,Obrigatoria,2,40,ativa
+268,Projeto Integrador VI ,2008-01-01,Obrigatoria,2,40,ativa
+269,Francês,2008-01-01,Obrigatoria,4,80,ativa
+270,Alemão,2008-01-01,Obrigatoria,4,80,ativa
+271,- Cálculo ,2012-09-17,Obrigatoria,4,80,ativa
+272,- Desenho Técnico,2012-09-17,Obrigatoria,3,60,ativa
+273,- Eletricidade Aplicada,2012-09-17,Obrigatoria,4,80,ativa
+274,- Física,2012-09-17,Obrigatoria,4,80,ativa
+275,- Introdução à Hidráulica e ao Saneamento Ambiental,2012-09-17,Obrigatoria,2,40,ativa
+276,- Ciências do Ambiente,2012-09-17,Obrigatoria,2,40,ativa
+277,- Geometria Analítica,2012-09-17,Obrigatoria,4,80,ativa
+278,- Hidráulica I,2012-09-17,Obrigatoria,4,80,ativa
+279,- Materiais de Construção Civil I,2012-09-17,Obrigatoria,3,60,ativa
+280,- Topografia ,2012-09-17,Obrigatoria,4,80,ativa
+281,- Biologia Sanitária,2012-09-17,Obrigatoria,2,40,ativa
+282,- Estatística,2012-09-17,Obrigatoria,2,40,ativa
+283,- Hidráulica II,2012-09-17,Obrigatoria,4,80,ativa
+284,- Humanidades,2012-09-17,Obrigatoria,2,40,ativa
+285,- Materiais de Construção Civil II,2012-09-17,Obrigatoria,3,60,ativa
+286,- Mecânica dos Solos,2012-09-17,Obrigatoria,2,40,ativa
+287,- Movimento de Terra,2012-09-17,Obrigatoria,3,60,ativa
+288,- Cálculo Informatizado,2012-09-17,Obrigatoria,2,40,ativa
+289,- Direito Ambiental e do Trabalho,2012-09-17,Obrigatoria,2,40,ativa
+290,- Hidráulica III,2012-09-17,Obrigatoria,2,40,ativa
+291,- Laboratório de Hidráulica,2012-09-17,Obrigatoria,2,40,ativa
+292,- Materiais para Tubulação,2012-09-17,Obrigatoria,3,60,ativa
+293,- Obras de Terra,2012-09-17,Obrigatoria,2,40,ativa
+294,- Química Sanitária e Ambiental,2012-09-17,Obrigatoria,2,40,ativa
+295,- Resistência dos Materiais,2012-09-17,Obrigatoria,4,80,ativa
+296,- Comunicação em Língua Portuguesa,2012-09-17,Obrigatoria,4,80,ativa
+297,- Desenho Assistido por Computador,2012-09-17,Obrigatoria,3,60,ativa
+298,- Estruturas,2012-09-17,Obrigatoria,3,60,ativa
+299,- Hidrologia,2012-09-17,Obrigatoria,4,80,ativa
+300,- Máquinas e Equipamentos Hidromecânicos,2012-09-17,Obrigatoria,2,40,ativa
+301,- Relações Interpessoais,2012-09-17,Obrigatoria,2,40,ativa
+302,- Gerenciamento Ambiental,2012-09-17,Obrigatoria,2,40,ativa
+303,- Hidrometria,2012-09-17,Obrigatoria,2,40,ativa
+304,- Laboratório de Saneamento,2012-09-17,Obrigatoria,4,80,ativa
+305,- Operação e Manutenção de Sistemas de Abastecimento de Água,2012-09-17,Obrigatoria,2,40,ativa
+306,- Projeto de Sistemas de Abastecimento da Água,2012-09-17,Obrigatoria,8,160,ativa
+307,- Resíduos Sólidos,2012-09-17,Obrigatoria,2,40,ativa
+308,- Construção e Manutenção de Sistemas de Drenagem,2012-09-17,Obrigatoria,2,40,ativa
+309,- Gerenciamento de Obras,2012-09-17,Obrigatoria,2,40,ativa
+310,- Metodologia de Pesquisa Científica e Tecnológica I,2012-09-17,Obrigatoria,2,40,ativa
+311,- Operação e Manutenção de Sistemas de Esgoto Sanitário,2012-09-17,Obrigatoria,2,40,ativa
+312,- Projeto de Sistemas de Drenagem,2012-09-17,Obrigatoria,4,80,ativa
+313,- Projeto de Sistemas de Esgoto Sanitário,2012-09-17,Obrigatoria,8,160,ativa
+314,- Construção de Redes Subterrâneas,2012-09-17,Obrigatoria,2,40,ativa
+315,- Gerenciamento de Recursos Hídricos,2012-09-17,Obrigatoria,2,40,ativa
+316,- Metodologia de Pesquisa Científica e Tecnológica II,2012-09-17,Obrigatoria,1,20,ativa
+317,- Projeto de Instalações Hidráulicas e Prediais,2012-09-17,Obrigatoria,8,160,ativa
+318,- Tratamento de Efluentes Industriais,2012-09-17,Obrigatoria,2,40,ativa
+319,Eletrotécnica I,2024-07-01,Obrigatoria,4,80,ativa
+320,Humanidades,2024-07-01,Obrigatoria,2,40,ativa
+321,Química,2024-07-01,Obrigatoria,4,80,ativa
+322,Fundamentos de Eletromagnetismo,2024-07-01,Obrigatoria,2,40,ativa
+323,Física I,2024-07-01,Obrigatoria,4,80,ativa
+324,Comunicação e Expressão,2024-07-01,Obrigatoria,4,80,ativa
+325,Cálculo I,2024-07-01,Obrigatoria,4,80,ativa
+326,Eletrotécnica II,2024-07-01,Obrigatoria,6,120,ativa
+327,Materiais Elétricos,2024-07-01,Obrigatoria,2,40,ativa
+328,Desenho Técnico,2024-07-01,Obrigatoria,4,80,ativa
+329,Fundamentos de Resistência dos Materiais,2024-07-01,Obrigatoria,2,40,ativa
+330,Física II,2024-07-01,Obrigatoria,4,80,ativa
+331,Cálculo II,2024-07-01,Obrigatoria,4,80,ativa
+332,Fundamentos de Cálculo Numérico,2024-07-01,Obrigatoria,2,40,ativa
+333,Circuitos Elétricos,2024-07-01,Obrigatoria,4,80,ativa
+334,Medidas Elétricas e Instrumentação Industrial,2024-07-01,Obrigatoria,4,80,ativa
+335,Instalações Elétricas I,2024-07-01,Obrigatoria,4,80,ativa
+336,Conversão Eletromecânica de Energia,2024-07-01,Obrigatoria,2,40,ativa
+337,Eletrônica,2024-07-01,Obrigatoria,6,120,ativa
+338,Cálculo III,2024-07-01,Obrigatoria,4,80,ativa
+339,Estatística Descritiva,2024-07-01,Obrigatoria,2,40,ativa
+340,Circuitos Digitais,2024-07-01,Obrigatoria,4,80,ativa
+341,Máquinas Elétricas,2024-07-01,Obrigatoria,4,80,ativa
+342,Instalações Elétricas II,2024-07-01,Obrigatoria,4,80,ativa
+343,Sistemas Elétricos de Potência,2024-07-01,Obrigatoria,4,80,ativa
+344,Fundamentos de Administração Geral,2024-07-01,Obrigatoria,2,40,ativa
+345,Segurança no Trabalho,2024-07-01,Obrigatoria,2,40,ativa
+346,Sustentabilidade,2024-07-01,Obrigatoria,2,40,ativa
+347,Fundamentos de Termodinâmica,2024-07-01,Obrigatoria,2,40,ativa
+348,Sistemas de Proteção I,2024-07-01,Obrigatoria,4,80,ativa
+349,"Geração, Transmissão e Distribuição de Energia Elétrica I",2024-07-01,Obrigatoria,4,80,ativa
+350,Cabeamento Estruturado e Telefonia,2024-07-01,Obrigatoria,4,80,ativa
+351,Luminotécnica,2024-07-01,Obrigatoria,4,80,ativa
+352,Fundamentos de Organização Industrial,2024-07-01,Obrigatoria,2,40,ativa
+353,Fundamentos da Economia,2024-07-01,Obrigatoria,2,40,ativa
+354,Gestão de projetos,2024-07-01,Obrigatoria,2,40,ativa
+355,Legislações e Normas,2024-07-01,Obrigatoria,2,40,ativa
+356,Sistemas de Proteção II,2024-07-01,Obrigatoria,4,80,ativa
+357,"Geração, Transmissão e Distribuição de Energia Elétrica II",2024-07-01,Obrigatoria,4,80,ativa
+358,Sistemas de Automação e Controle,2024-07-01,Obrigatoria,4,80,ativa
+359,Instalações Elétricas Inteligentes,2024-07-01,Obrigatoria,4,80,ativa
+360,Optativa I,2024-07-01,Optativa,2,40,ativa
+361,Optativa II,2024-07-01,Optativa,2,40,ativa
+362,Gestão da Qualidade,2024-07-01,Obrigatoria,2,40,ativa
+363,Custos e Orçamentos,2024-07-01,Obrigatoria,2,40,ativa
+364,Gestão de Manutenção,2024-07-01,Obrigatoria,2,40,ativa
+365,Sistemas de Proteção Contra Descargas Atmosféricas,2024-07-01,Obrigatoria,2,40,ativa
+366,Instalações Hospitalares,2024-07-01,Obrigatoria,2,40,ativa
+367,Entradas de Energia em Média Tensão,2024-07-01,Obrigatoria,2,40,ativa
+368,Automação Industrial,2024-07-01,Obrigatoria,2,40,ativa
+369,Contabilidade Geral ,2024-07-01,Obrigatoria,4,80,ativa
+370,Matemática,2024-07-01,Obrigatoria,4,80,ativa
+371,Sociologia das Organizações,2024-07-01,Obrigatoria,4,80,ativa
+372,Economia,2024-07-01,Obrigatoria,4,80,ativa
+373,Comunicação e Expressão,2024-07-01,Obrigatoria,4,80,ativa
+374,Inglês I ,2024-07-01,Obrigatoria,4,80,ativa
+375,Administração Comportamento Organizacional ,2024-07-01,Obrigatoria,4,80,ativa
+376,"Organização, Sistemas e Métodos ",2024-07-01,Obrigatoria,4,80,ativa
+377,Gestão de Marketing ,2024-07-01,Obrigatoria,4,80,ativa
+378,Gestão de Pessoas ,2024-07-01,Obrigatoria,4,80,ativa
+379,Estatística aplicada a Gestão ,2024-07-01,Obrigatoria,4,80,ativa
+380,Métodos para a Produção do Conhecimento ,2024-07-01,Obrigatoria,4,80,ativa
+381,Inglês II ,2024-07-01,Obrigatoria,4,80,ativa
+382,Planejamento de Marketing ,2024-07-01,Obrigatoria,4,80,ativa
+383,Gestão Financeira ,2024-07-01,Obrigatoria,4,80,ativa
+384,Informática Aplicada a Gestão ,2024-07-01,Obrigatoria,4,80,ativa
+385,Matemática Financeira ,2024-07-01,Obrigatoria,4,80,ativa
+386,Direito Empresarial ,2024-07-01,Obrigatoria,4,80,ativa
+387,Sistemas de Informação ,2024-07-01,Obrigatoria,4,80,ativa
+388,Inglês III ,2024-07-01,Obrigatoria,4,80,ativa
+389,Gestão de Projetos Empresariais ,2024-07-01,Obrigatoria,4,80,ativa
+390,Análise de Investimentos ,2024-07-01,Obrigatoria,4,80,ativa
+391,Gestão Ambiental ,2024-07-01,Obrigatoria,4,80,ativa
+392,Logística ,2024-07-01,Obrigatoria,4,80,ativa
+393,Gestão da Produção ,2024-07-01,Obrigatoria,4,80,ativa
+394,Comunicação Empresarial Geral ,2024-07-01,Obrigatoria,4,80,ativa
+395,Inglês IV ,2024-07-01,Obrigatoria,4,80,ativa
+396,Desenvolvimento de Negócios ,2024-07-01,Obrigatoria,4,80,ativa
+397,Planejamento e Gestão Estratégica ,2024-07-01,Obrigatoria,4,80,ativa
+398,"Sociedade, Tecnologia e Inovação ",2024-07-01,Obrigatoria,4,80,ativa
+399,Negócios Internacionais ,2024-07-01,Obrigatoria,4,80,ativa
+400,Fundamentos da Gestão da Qualidade ,2024-07-01,Obrigatoria,4,80,ativa
+401,Projeto de Trabalho de Graduação ,2024-07-01,Obrigatoria,4,80,ativa
+402,Espanhol I ,2024-07-01,Obrigatoria,4,80,ativa
+403,Inglês V ,2024-07-01,Obrigatoria,4,80,ativa
+404,Atividades Acadêmico-Científico-Culturais ,2024-07-01,Obrigatoria,4,80,ativa
+405,Sistemas Integrados de Gestão ,2024-07-01,Obrigatoria,4,80,ativa
+406,Espanhol II ,2024-07-01,Obrigatoria,4,80,ativa
+407,Inglês VI ,2024-07-01,Obrigatoria,4,80,ativa
+408,- Cálculo I,1973-04-10,Obrigatoria,6,120,ativa
+409,- Desenho Técnico e Introdução ao CAD,1973-04-10,Obrigatoria,4,80,ativa
+410,- Física I,1973-04-10,Obrigatoria,5,100,ativa
+411,- Humanidades,1973-04-10,Obrigatoria,4,80,ativa
+412,- Português,1973-04-10,Obrigatoria,4,80,ativa
+413,- Química I,1973-04-10,Obrigatoria,5,100,ativa
+414,- Atividades Minerárias e Meio Ambiente,1973-04-10,Obrigatoria,2,40,ativa
+415,- Cálculo II,1973-04-10,Obrigatoria,6,120,ativa
+416,- Física II,1973-04-10,Obrigatoria,5,100,ativa
+417,- Introdução à Gestão Empresarial,1973-04-10,Obrigatoria,2,40,ativa
+418,- Inglês Técnico,1973-04-10,Obrigatoria,2,40,ativa
+419,- Probabilidade e Estatística,1973-04-10,Obrigatoria,4,80,ativa
+420,- Química II,1973-04-10,Obrigatoria,5,100,ativa
+421,- Cálculo III,1973-04-10,Obrigatoria,4,80,ativa
+422,- Ciência dos Materiais I,1973-04-10,Obrigatoria,4,80,ativa
+423,- Elementos de Eletricidade,1973-04-10,Obrigatoria,2,40,ativa
+424,- Física III,1973-04-10,Obrigatoria,4,80,ativa
+425,- Noções Gerais de Direito,1973-04-10,Obrigatoria,2,40,ativa
+426,- Química Orgânica,1973-04-10,Obrigatoria,4,80,ativa
+427,- Resistência dos Materiais I,1973-04-10,Obrigatoria,4,80,ativa
+428,- Termodinâmica dos Sólidos e Fenômenos de Transporte,1973-04-10,Obrigatoria,4,80,ativa
+429,- Cálculo Numérico,1973-04-10,Obrigatoria,4,80,ativa
+430,- Ciência dos Materiais II,1973-04-10,Obrigatoria,4,80,ativa
+431,- Eletrotécnica e Instalações Industriais,1973-04-10,Obrigatoria,2,40,ativa
+432,- Estatística Industrial e Controle de Qualidade,1973-04-10,Obrigatoria,4,80,ativa
+433,- Física de Estado Sólido,1973-04-10,Obrigatoria,4,80,ativa
+434,- Física IV,1973-04-10,Obrigatoria,4,80,ativa
+435,- Matérias Primas e Impacto Ambiental,1973-04-10,Obrigatoria,2,40,ativa
+436,- Reciclagem dos Materiais,1973-04-10,Obrigatoria,2,40,ativa
+437,- Resistência dos Materiais II,1973-04-10,Obrigatoria,4,80,ativa
+438,- Estrutura e Propriedades dos Materiais Poliméricos,1973-04-10,Obrigatoria,5,100,ativa
+439,- Reologia de Polímeros,1973-04-10,Obrigatoria,5,100,ativa
+440,- Tecnologia de Polímeros,1973-04-10,Obrigatoria,4,80,ativa
+441,- Tecnologia de Síntese de Materiais Poliméricos,1973-04-10,Obrigatoria,6,120,ativa
+442,DISCIPLINA OPTATIVA,1973-04-10,Optativa,2,40,ativa
+443,- Processamento de Materiais Poliméricos ,1973-04-10,Obrigatoria,5,100,ativa
+444,- Organização Industrial,1973-04-10,Obrigatoria,2,40,ativa
+445,- Tempos e Métodos,1973-04-10,Obrigatoria,2,40,ativa
+446,- Tecnologia de Plásticos Industriais,1973-04-10,Obrigatoria,4,80,ativa
+447,- Tecnologia do Vidro,1973-04-10,Obrigatoria,2,40,ativa
+448,- Biomateriais,1973-04-10,Obrigatoria,2,40,ativa
+449,- Materiais Compósitos,1973-04-10,Obrigatoria,2,40,ativa
+450,- Tratamentos de Resíduos Sólidos,1973-04-10,Obrigatoria,2,40,ativa
+451,- Tecnologia de Fibras Ópticas,1973-04-10,Obrigatoria,2,40,ativa
+452,- Corrosão e Processo de Proteção de Materiais,1973-04-10,Obrigatoria,2,40,ativa
+453,- Análise de Falhas por Fraturas,1973-04-10,Obrigatoria,2,40,ativa
+454,- Fundamentos de Soldagem,1973-04-10,Obrigatoria,6,120,ativa
+- Materiais Elétricos,10/04/1973,Obrigatoria,2,40,ativa,ativa
+455,Cálculo I ,1973-04-10,Obrigatoria,6,120,ativa
+456,Comunicação em Língua Portuguesa,1973-04-10,Obrigatoria,3,60,ativa
+457,Desenho I ,1973-04-10,Obrigatoria,2,40,ativa
+458,Física Aplicada I,1973-04-10,Obrigatoria,4,80,ativa
+459,História da Ciência e da Tecnologia,1973-04-10,Obrigatoria,2,40,ativa
+460,Informática,1973-04-10,Obrigatoria,2,40,ativa
+461,Inglês ,1973-04-10,Obrigatoria,2,40,ativa
+462,Química,1973-04-10,Obrigatoria,4,80,ativa
+463,Cálculo II ,1973-04-10,Obrigatoria,6,120,ativa
+464,Desenho II ,1973-04-10,Obrigatoria,4,80,ativa
+465,Eletricidade Básica,1973-04-10,Obrigatoria,4,80,ativa
+466,Estatística,1973-04-10,Obrigatoria,3,60,ativa
+467,Física Aplicada II,1973-04-10,Obrigatoria,4,80,ativa
+468,Metrologia I,1973-04-10,Obrigatoria,4,80,ativa
+469,Programação de Computadores,1973-04-10,Obrigatoria,4,80,ativa
+470,Elementos de Máquinas I,1973-04-10,Obrigatoria,4,80,ativa
+471,Eletrônica I ,1973-04-10,Obrigatoria,4,80,ativa
+472,Eletrotécnica,1973-04-10,Obrigatoria,2,40,ativa
+473,Materiais de Construção I,1973-04-10,Obrigatoria,4,80,ativa
+474,Mecânica dos Sólidos I,1973-04-10,Obrigatoria,3,60,ativa
+475,Metrologia II,1973-04-10,Obrigatoria,4,80,ativa
+476,Óptica Técnica I,1973-04-10,Obrigatoria,4,80,ativa
+477,Tecnologia de Fabricação Mecânica I,1973-04-10,Obrigatoria,4,80,ativa
+478,Elementos de Máquinas II,1973-04-10,Obrigatoria,4,80,ativa
+479,Eletrônica II,1973-04-10,Obrigatoria,4,80,ativa
+480,Materiais de Construção II,1973-04-10,Obrigatoria,2,40,ativa
+481,Mecânica dos Sólidos II,1973-04-10,Obrigatoria,2,40,ativa
+482,Microprocessadores I,1973-04-10,Obrigatoria,4,80,ativa
+483,Óptica Técnica II,1973-04-10,Obrigatoria,4,80,ativa
+484,Organização Industrial,1973-04-10,Obrigatoria,2,40,ativa
+485,Processamento de Sinais,1973-04-10,Obrigatoria,2,40,ativa
+486,Sistemas Hidráulicos e Pneumáticos I,1973-04-10,Obrigatoria,2,40,ativa
+487,Tecnologia de Fabricação Mecânica II,1973-04-10,Obrigatoria,2,40,ativa
+488,Construção em Mecânica de Precisão I,1973-04-10,Obrigatoria,4,80,ativa
+489,Programação e Operação de Máquinas CNC,1973-04-10,Obrigatoria,2,40,ativa
+490,Elementos de Máquinas III,1973-04-10,Obrigatoria,4,80,ativa
+491,Eletrônica III,1973-04-10,Obrigatoria,4,80,ativa
+492,Materiais de Construção III,1973-04-10,Obrigatoria,2,40,ativa
+493,Microprocessadores II,1973-04-10,Obrigatoria,4,80,ativa
+494,Sistemas Hidráulicos e Pneumáticos II,1973-04-10,Obrigatoria,4,80,ativa
+495,Tecnologia de Fabricação Mecânica III,1973-04-10,Obrigatoria,2,40,ativa
+496,Construção em Mecânica de Precisão II,1973-04-10,Obrigatoria,4,80,ativa
+497,Controle de Qualidade ,1973-04-10,Obrigatoria,3,60,ativa
+498,Psicologia Industrial,1973-04-10,Obrigatoria,2,40,ativa
+499,Relações Humanas e Direito Trabalhista,1973-04-10,Obrigatoria,2,40,ativa
+500,Aplicações de Robôs Industriais ,1973-04-10,Obrigatoria,2,40,ativa
+501,Desenho Assistido por Computador (CAD),1973-04-10,Obrigatoria,2,40,ativa
+502,Manufatura Automatizada (CAM),1973-04-10,Obrigatoria,3,60,ativa
+503,Gestão Empresarial,1973-04-10,Obrigatoria,4,80,ativa
+504,Metrologia Óptica,1973-04-10,Obrigatoria,4,80,ativa
+505,Programação Avançada,1973-04-10,Obrigatoria,4,80,ativa
+506,Cálculo Diferencial e Integral I,1994-01-01,Obrigatoria,4,80,ativa
+507,Programação de Computadores ,1994-01-01,Obrigatoria,6,80,ativa
+508,Introdução à Tecnologia,1994-01-01,Obrigatoria,2,40,ativa
+509,Física Mecânica,1994-01-01,Obrigatoria,6,80,ativa
+510,Geometria Analítica,1994-01-01,Obrigatoria,4,80,ativa
+Sistemas Digitais ,01/01/1994,Obrigatoria,2,6,80,ativa
+6,40,ativa,Obrigatoria,6,80,ativa
+511,Química I,1994-01-01,Obrigatoria,4,40,ativa
+512,Cálculo Diferencial e Integral II,1994-01-01,Obrigatoria,4,80,ativa
+513,Circuitos Elétricos ,1994-01-01,Obrigatoria,6,80,ativa
+514,Física Eletromagnética,1994-01-01,Obrigatoria,6,80,ativa
+515,Química II,1994-01-01,Obrigatoria,4,80,ativa
+516,Ciências dos Materiais ,1994-01-01,Obrigatoria,4,80,ativa
+517,Redação Técnica,1994-01-01,Obrigatoria,4,80,ativa
+518,Técnicas Químicas de Caracterização,1994-01-01,Obrigatoria,4,80,ativa
+TOTAL,01/01/1994,Obrigatoria,2,40,ativa,ativa
+519,Cálculo Diferencial e Integral III,1994-01-01,Obrigatoria,4,80,ativa
+520,Cálculo Numérico,1994-01-01,Obrigatoria,2,40,ativa
+521,Ciência e Tecnologias Térmicas ,1994-01-01,Obrigatoria,4,80,ativa
+522,Dispositivos Semicondutores ,1994-01-01,Obrigatoria,4,80,ativa
+523,Fabricação de Componentes Passivos ,1994-01-01,Obrigatoria,2,40,ativa
+524,Física Eletromagnética e Óptica,1994-01-01,Obrigatoria,4,80,ativa
+525,Materiais Cerâmicos e Poliméricos ,1994-01-01,Obrigatoria,2,40,ativa
+526,Técnicas Físicas de Caracterização,1994-01-01,Obrigatoria,4,80,ativa
+527,Tecnologia do Vácuo,1994-01-01,Obrigatoria,4,80,ativa
+528,Estatística,1994-01-01,Obrigatoria,4,80,ativa
+529,Eletrônica,1994-01-01,Obrigatoria,6,80,ativa
+530,Etapas de Processo - Teoria,1994-01-01,Obrigatoria,4,80,ativa
+531,Etapas de Processo - Laboratório,1994-01-01,Obrigatoria,6,80,ativa
+532,Física do Estado Sólido,1994-01-01,Obrigatoria,4,80,ativa
+533,Projeto de Circuito Integrado,1994-01-01,Obrigatoria,4,80,ativa
+534,Tecnologia de Salas Limpas ,1994-01-01,Obrigatoria,2,40,ativa
+535,"Controle de Qualidade, Confiabilidade e Análise",1994-01-01,Optativa,2,40,ativa
+de Falhas,01/01/1994,Obrigatoria,4,80,ativa,ativa
+536,Empreendedorismo,1994-01-01,Obrigatoria,2,40,ativa
+537,Trabalho de Graduação,1994-01-01,Obrigatoria,2,40,ativa
+538,Processos de Fabricação de Componentes Semicondutores,1994-01-01,Obrigatoria,6,80,ativa
+539,Processos Eletrônicos Avançados I,1994-01-01,Obrigatoria,4,80,ativa
+540,Optativa 1,1994-01-01,Optativa,2,40,ativa
+541,Optativa 2,1994-01-01,Optativa,2,40,ativa
+542,Fabricação de Placas de Circuito Impresso,1994-01-01,Obrigatoria,4,40,ativa
+543,Montagem Eletrônica,1994-01-01,Obrigatoria,4,80,ativa
+544,Processos Eletrônicos Avançados II,1994-01-01,Obrigatoria,4,80,ativa
+545,Tecnologia de Encapsulamento,1994-01-01,Obrigatoria,2,40,ativa
+546,Optativa 3,1994-01-01,Optativa,2,40,ativa
+547,Optativa 4,1994-01-01,Optativa,2,40,ativa
+548,Aplicações Tecnológicas de Plasma,1994-01-01,Obrigatoria,2,40,ativa
+549,Desenho Técnico e Introdução ao CAD,1994-01-01,Obrigatoria,4,80,ativa
+550,Dinâmica de Negócios da Indústria Manufatureira,1994-01-01,Obrigatoria,2,40,ativa
+551,Direito Ambiental e Sustentabilidade,1994-01-01,Obrigatoria,2,40,ativa
+552,Eletrônica Avançada,1994-01-01,Obrigatoria,4,40,ativa
+553,Estrutura de Dados ,1994-01-01,Obrigatoria,4,80,ativa
+554,Extração de Parâmetros de Componentes ,1994-01-01,Obrigatoria,2,40,ativa
+555,Gestão da Manufatura,1994-01-01,Obrigatoria,2,40,ativa
+556,Humanidades ,1994-01-01,Obrigatoria,2,40,ativa
+557,Inglês Técnico,1994-01-01,Obrigatoria,2,40,ativa
+558,Metais e Ligas ,1994-01-01,Obrigatoria,2,40,ativa
+559,Organização e Métodos da Produção,1994-01-01,Obrigatoria,2,40,ativa
+560,Planejamento e Controle da Produção,1994-01-01,Obrigatoria,2,40,ativa
+561,Projeto e Controle Estatístico,1994-01-01,Obrigatoria,2,40,ativa
+562,Sistemas Digitais Avançados ,1994-01-01,Obrigatoria,4,40,ativa
+563,Tecnologia do Vidro,1994-01-01,Obrigatoria,2,40,ativa
+564,Tópicos de Materiais Avançados ,1994-01-01,Obrigatoria,2,40,ativa
+565,Cálculo I,1973-04-10,Obrigatoria,4,80,ativa
+566,Comunicação e Expressão,1973-04-10,Obrigatoria,4,80,ativa
+567,Desenho Técnico de Construção Civil,1973-04-10,Obrigatoria,4,80,ativa
+568,Física Aplicada I,1973-04-10,Obrigatoria,4,80,ativa
+569,Práticas de Física I,1973-04-10,Obrigatoria,4,80,ativa
+570,Geologia,1973-04-10,Obrigatoria,4,80,ativa
+571,Inglês I,1973-04-10,Obrigatoria,4,80,ativa
+572,Materiais para Construção Civil Aplicados a Obras Viárias I,1973-04-10,Obrigatoria,4,80,ativa
+573,Química Aplicada,1973-04-10,Obrigatoria,4,80,ativa
+574,Cálculo II,1973-04-10,Obrigatoria,4,80,ativa
+575,Física Aplicada II,1973-04-10,Obrigatoria,4,80,ativa
+576,Práticas de Física II,1973-04-10,Obrigatoria,4,80,ativa
+577,Informática Aplicada a Projetos Viários,1973-04-10,Obrigatoria,4,80,ativa
+578,Inglês II,1973-04-10,Obrigatoria,4,80,ativa
+579,Materiais para Construção Civil Aplicados a Obras Viárias II,1973-04-10,Obrigatoria,4,80,ativa
+580,Topografia,1973-04-10,Obrigatoria,4,80,ativa
+581,Avaliação de Impacto Ambiental,1973-04-10,Obrigatoria,4,80,ativa
+582,Estatística,1973-04-10,Obrigatoria,4,80,ativa
+583,Ética,1973-04-10,Obrigatoria,4,80,ativa
+584,Mecânica dos Solos,1973-04-10,Obrigatoria,4,80,ativa
+585,Relações Humanas e Direito Trabalhista,1973-04-10,Obrigatoria,4,80,ativa
+586,Resistência dos Materiais I,1973-04-10,Obrigatoria,4,80,ativa
+587,Transportes e Tráfego,1973-04-10,Obrigatoria,4,80,ativa
+588,Construções Sustentáveis,1973-04-10,Obrigatoria,4,80,ativa
+589,Mecânica dos Fluídos,1973-04-10,Obrigatoria,4,80,ativa
+590,Projeto Geométrico de Vias,1973-04-10,Obrigatoria,4,80,ativa
+591,Projeto Integrador I,1973-04-10,Obrigatoria,4,80,ativa
+592,Resistência dos Materiais II,1973-04-10,Obrigatoria,4,80,ativa
+593,Terraplenagem,1973-04-10,Obrigatoria,4,80,ativa
+594,Técnicas Construtivas de Edifícios,1973-04-10,Obrigatoria,4,80,ativa
+595,Drenagem,1973-04-10,Obrigatoria,4,80,ativa
+596,Instalações Elétricas,1973-04-10,Obrigatoria,4,80,ativa
+597,Práticas de Instalações Elétricas,1973-04-10,Obrigatoria,4,80,ativa
+598,Instalações Hidráulicas,1973-04-10,Obrigatoria,4,80,ativa
+599,Materiais para Pavimentação,1973-04-10,Obrigatoria,4,80,ativa
+600,Projeto de Pavimento,1973-04-10,Obrigatoria,4,80,ativa
+601,Sinalização e Segurança Viária,1973-04-10,Obrigatoria,4,80,ativa
+602,Gerência de Obras,1973-04-10,Obrigatoria,4,80,ativa
+603,Gerência de Projetos Viários,1973-04-10,Obrigatoria,4,80,ativa
+604,Gestão e Diagnóstico de Patologias em Pavimentos,1973-04-10,Obrigatoria,4,80,ativa
+605,Pavimentação,1973-04-10,Obrigatoria,4,80,ativa
+606,Projeto Integrador II,1973-04-10,Obrigatoria,4,80,ativa
+607,Técnicas de Manutenção de Pavimentos,1973-04-10,Obrigatoria,4,80,ativa
+608,Métodos de Cálculo I,1973-04-10,Obrigatoria,6,120,ativa
+609,Desenho Técnico Mecânico I,1973-04-10,Obrigatoria,2,40,ativa
+610,Humanidades,1973-04-10,Obrigatoria,4,80,ativa
+611,Física Aplicada I,1973-04-10,Obrigatoria,5,100,ativa
+612,Eletricidade Aplicada I,1973-04-10,Obrigatoria,3,60,ativa
+613,Português,1973-04-10,Obrigatoria,3,60,ativa
+614,Operações Mecânicas I (Prática),1973-04-10,Obrigatoria,4,80,ativa
+615,Operações Mecânicas I (Teoria),1973-04-10,Obrigatoria,2,40,ativa
+616,Sistemas Mecânicos I,1973-04-10,Obrigatoria,4,80,ativa
+617,Desenho Técnico Mecânico II,1973-04-10,Obrigatoria,3,60,ativa
+618,Eletricidade Aplicada II,1973-04-10,Obrigatoria,5,100,ativa
+619,Métodos de Cálculo II,1973-04-10,Obrigatoria,6,120,ativa
+620,Processos de Produção I (Prática),1973-04-10,Obrigatoria,2,40,ativa
+621,Processos de Produção I (Teoria),1973-04-10,Obrigatoria,2,40,ativa
+622,Materiais para Construção Mecânica I,1973-04-10,Obrigatoria,3,60,ativa
+623,Desenho Técnico Mecânico III,1973-04-10,Obrigatoria,2,40,ativa
+624,Operações Mecânicas II (Prática),1973-04-10,Obrigatoria,4,80,ativa
+625,Operações Mecânicas II (Teoria),1973-04-10,Obrigatoria,2,40,ativa
+626,Sistemas Mecânicos II,1973-04-10,Obrigatoria,3,60,ativa
+627,Estática e Resistência dos Materiais I,1973-04-10,Obrigatoria,4,80,ativa
+628,Relações Humanas e Direito Trabalhista,1973-04-10,Obrigatoria,2,40,ativa
+629,Estatística I,1973-04-10,Obrigatoria,2,40,ativa
+630,Materiais para Construção Mecânica II,1973-04-10,Obrigatoria,4,80,ativa
+631,Tecnologia de Estampagem I,1973-04-10,Obrigatoria,2,40,ativa
+632,Tecnologia de Dispositivos,1973-04-10,Obrigatoria,4,80,ativa
+633,Processos de Produção II,1973-04-10,Obrigatoria,4,80,ativa
+634,Sistemas Mecânicos III,1973-04-10,Obrigatoria,3,60,ativa
+635,Organização Industrial,1973-04-10,Obrigatoria,7,140,ativa
+636,Tecnologia de Estampagem II,1973-04-10,Obrigatoria,2,40,ativa
+637,Tratamento Térmico e Seleção de Materiais,1973-04-10,Obrigatoria,5,100,ativa
+638,Máquinas-Ferramenta I,1973-04-10,Obrigatoria,14,280,ativa
+639,Controle de Qualidade,1973-04-10,Obrigatoria,4,80,ativa
+640,Instalação e Manutenção de Equipamentos,1973-04-10,Obrigatoria,5,100,ativa
+641,Máquinas-Ferramenta II,1973-04-10,Obrigatoria,14,280,ativa
+642,Recursos Industriais,1973-04-10,Obrigatoria,3,60,ativa
+643,Metodos de Calculo I,1973-04-10,Obrigatoria,6,120,ativa
+644,Desenho Tecnico Mecanico I,1973-04-10,Obrigatoria,2,40,ativa
+645,Eletricidade Aplicada I,1973-04-10,Obrigatoria,3,60,ativa
+646,Fisica Aplicada I,1973-04-10,Obrigatoria,5,100,ativa
+647,Humanidades,1973-04-10,Obrigatoria,4,80,ativa
+648,Portugues,1973-04-10,Obrigatoria,3,60,ativa
+649,Metodos de Calculo II,1973-04-10,Obrigatoria,6,120,ativa
+650,Desenho Tecnico Mecanico II,1973-04-10,Obrigatoria,3,60,ativa
+651,Eletricidade Aplicada II,1973-04-10,Obrigatoria,5,100,ativa
+652,Operacoes Mecanicas I (Pratica),1973-04-10,Obrigatoria,4,80,ativa
+653,Operacoes Mecanicas I (Teoria),1973-04-10,Obrigatoria,2,40,ativa
+654,Sistemas Mecanicos I,1973-04-10,Obrigatoria,4,80,ativa
+655,Desenho Tecnico Mecanico III,1973-04-10,Obrigatoria,2,40,ativa
+656,Estatistica I,1973-04-10,Obrigatoria,2,40,ativa
+657,Materiais para Construcao Mecanica I,1973-04-10,Obrigatoria,3,60,ativa
+658,Operacoes Mecanicas II (Pratica),1973-04-10,Obrigatoria,4,80,ativa
+659,Operacoes Mecanicas II (Teoria),1973-04-10,Obrigatoria,2,40,ativa
+660,Processos de Producao I (Pratica),1973-04-10,Obrigatoria,2,40,ativa
+661,Processos de Producao I (Teoria),1973-04-10,Obrigatoria,2,40,ativa
+662,Estatica e Resistencia dos Materiais I,1973-04-10,Obrigatoria,4,80,ativa
+663,Relacoes Humanas e Direito Trabalhista,1973-04-10,Obrigatoria,2,40,ativa
+664,Sistemas Mecanicos II,1973-04-10,Obrigatoria,3,60,ativa
+665,Construcao de Maquinas I,1973-04-10,Obrigatoria,7,140,ativa
+666,Materiais para Construcao Mecanica II,1973-04-10,Obrigatoria,4,80,ativa
+667,Processos de Producao II,1973-04-10,Obrigatoria,4,80,ativa
+668,Estatica e Resistencia dos Materiais II,1973-04-10,Obrigatoria,4,80,ativa
+669,Sistemas Mecanicos III,1973-04-10,Obrigatoria,3,60,ativa
+670,Tecnologia de Estampagem I,1973-04-10,Obrigatoria,2,40,ativa
+671,Construcao de Maquinas II,1973-04-10,Obrigatoria,7,140,ativa
+672,Organizacao Industrial,1973-04-10,Obrigatoria,7,140,ativa
+673,Tecnologia de Dispositivos,1973-04-10,Obrigatoria,4,80,ativa
+674,Tecnologia de Estampagem II,1973-04-10,Obrigatoria,2,40,ativa
+675,Tratamento Termico e Selecao de Materiais,1973-04-10,Obrigatoria,5,100,ativa
+676,Controle de Qualidade,1973-04-10,Obrigatoria,4,80,ativa
+677,Maquinas - Ferramenta para Projetos,1973-04-10,Obrigatoria,3,60,ativa
+678,Projeto de Maquinas,1973-04-10,Obrigatoria,8,160,ativa
+679,Recursos Industriais,1973-04-10,Obrigatoria,3,60,ativa
+680,Sistemas Hidraulicos e Pneumaticos,1973-04-10,Obrigatoria,4,80,ativa
+681,Ciencia dos Materiais,1988-04-11,Obrigatoria,2,40,ativa
+682,Comunicacao e Expressao,1988-04-11,Obrigatoria,2,40,ativa
+683,Desenvolvimento Comportamental,1988-04-11,Obrigatoria,2,40,ativa
+684,Estagio Supervisionado,1988-04-11,Obrigatoria,0,40,ativa
+685,Fisica,1988-04-11,Obrigatoria,4,80,ativa
+686,Geometria Analitica,1988-04-11,Obrigatoria,2,40,ativa
+687,Gestao Ambiental na Soldagem,1988-04-11,Obrigatoria,2,40,ativa
+688,Processos de Fabricacao Mecanica,1988-04-11,Obrigatoria,4,80,ativa
+689,Fundamentos da Termodinamica,1988-04-11,Obrigatoria,2,40,ativa
+690,"Solda, Corte e Informatizacao",1988-04-11,Obrigatoria,4,80,ativa
+691,Calculo I,1988-04-11,Obrigatoria,2,40,ativa
+692,Desenho Tecnico,1988-04-11,Obrigatoria,4,80,ativa
+693,Eletricidade e Eletronica Aplicadas na Soldagem,1988-04-11,Obrigatoria,2,40,ativa
+694,Estagio Supervisionado,1988-04-11,Obrigatoria,0,40,ativa
+695,Metalurgia-Fisico-Quimica,1988-04-11,Obrigatoria,4,80,ativa
+696,Gestao de Pessoas e Etica,1988-04-11,Obrigatoria,2,40,ativa
+697,Laboratorio de Processos na Soldagem I,1988-04-11,Obrigatoria,4,80,ativa
+698,Resistencia dos Materiais I,1988-04-11,Obrigatoria,4,80,ativa
+699,Tecnologia dos Processos de Soldagem I,1988-04-11,Obrigatoria,2,40,ativa
+700,Calculo II,1988-04-11,Obrigatoria,2,40,ativa
+701,Estagio Supervisionado,1988-04-11,Obrigatoria,0,40,ativa
+702,Gestao da Producao na Soldagem,1988-04-11,Obrigatoria,2,40,ativa
+703,Ingles I,1988-04-11,Obrigatoria,2,40,ativa
+704,Laboratorio de Processos na Soldagem II,1988-04-11,Obrigatoria,4,80,ativa
+705,Metalurgia na Soldagem,1988-04-11,Obrigatoria,4,80,ativa
+706,Metodologia da Pesquisa Cientifico-Tecnologica,1988-04-11,Obrigatoria,2,40,ativa
+707,Resistencia dos Materiais II,1988-04-11,Obrigatoria,2,40,ativa
+708,Tecnologia dos Processos de Soldagem II,1988-04-11,Obrigatoria,2,40,ativa
+709,Terminologia e Desenho para Soldagem,1988-04-11,Obrigatoria,4,80,ativa
+710,Calculo e Projeto de Elementos de Maquinas,1988-04-11,Obrigatoria,2,40,ativa
+711,Diretrizes para Elaboracao de Textos Tecnicos,1988-04-11,Obrigatoria,2,40,ativa
+712,Estagio Supervisionado,1988-04-11,Obrigatoria,0,40,ativa
+713,Ingles II,1988-04-11,Obrigatoria,2,40,ativa
+714,Introducao ao Desenho Assistido por Computador,1988-04-11,Obrigatoria,2,40,ativa
+715,Laboratorio de Ensaios da Qualidade,1988-04-11,Obrigatoria,2,40,ativa
+716,Processos e Aplicacoes Especiais,1988-04-11,Obrigatoria,2,40,ativa
+717,Sistemas Flexiveis de Manufatura,1988-04-11,Obrigatoria,2,40,ativa
+718,Soldagem na Producao Seriada,1988-04-11,Obrigatoria,2,40,ativa
+719,Tecnologia de Ensaios da Qualidade I,1988-04-11,Obrigatoria,2,40,ativa
+720,Tecnologia da Soldagem de Ligas Ferrosas,1988-04-11,Obrigatoria,4,80,ativa
+721,Tecnologia na Fabricacao de Conjuntos Soldados I,1988-04-11,Obrigatoria,2,40,ativa
+722,Produtividade e Custos em Processos de Soldagem,1988-04-11,Obrigatoria,2,40,ativa
+723,Calculo e Projeto de Estruturas Soldadas I,1988-04-11,Obrigatoria,2,40,ativa
+724,Estagio Supervisionado,1988-04-11,Obrigatoria,0,40,ativa
+725,Higiene e Seguranca no Trabalho para Soldagem,1988-04-11,Obrigatoria,2,40,ativa
+726,Ingles III,1988-04-11,Obrigatoria,2,40,ativa
+727,Inovacao e Empreendedorismo,1988-04-11,Obrigatoria,2,40,ativa
+728,Normas Tecnicas Aplicadas na Soldagem,1988-04-11,Obrigatoria,2,40,ativa
+729,Solda de Manutencao I,1988-04-11,Obrigatoria,2,40,ativa
+730,Tecnologia da Soldagem de Ligas Nao Ferrosas,1988-04-11,Obrigatoria,4,80,ativa
+731,Tecnologia de Ensaios da Qualidade II,1988-04-11,Obrigatoria,4,80,ativa
+732,Tecnologia na Fabricacao de Conjuntos Soldados II,1988-04-11,Obrigatoria,2,40,ativa
+733,Calculo e Projeto de Estruturas Soldadas II,1988-04-11,Obrigatoria,4,80,ativa
+734,Estagio Supervisionado,1988-04-11,Obrigatoria,0,40,ativa
+735,Estatistica,1988-04-11,Obrigatoria,2,40,ativa
+736,Gestao da Manufatura na Soldagem,1988-04-11,Obrigatoria,2,40,ativa
+737,Gestao da Qualidade,1988-04-11,Obrigatoria,2,40,ativa
+738,Ingles IV,1988-04-11,Obrigatoria,2,40,ativa
+739,Robotica para Soldagem,1988-04-11,Obrigatoria,4,80,ativa
+740,Solda de Manutencao II,1988-04-11,Obrigatoria,4,80,ativa
+741,Tecnologia no Tratamento de Superficies,1988-04-11,Obrigatoria,4,80,ativa
+742,Técnicas de Nutrição e Higiene dos Alimentos,2025-01-01,Obrigatoria,6,80,ativa
+743,Fundamentos da Hospitalidade,2025-01-01,Obrigatoria,2,40,ativa
+744,Comunicação e Expressão I,2025-01-01,Obrigatoria,2,40,ativa
+745,Gastronomia e Turismo,2025-01-01,Obrigatoria,4,80,ativa
+746,Território e Gastronomia,2025-01-01,Obrigatoria,4,80,ativa
+747,Projeto Integrador I – Tipologia de Espaços Gastronômicos,2025-01-01,Obrigatoria,2,40,ativa
+748,Inglês I,2025-01-01,Obrigatoria,2,40,ativa
+749,Espanhol I,2025-01-01,Obrigatoria,2,40,ativa
+750,Economia Criativa,2025-01-01,Obrigatoria,2,40,ativa
+751,Métodos para Produção do Conhecimento,2025-01-01,Obrigatoria,2,40,ativa
+752,Planejamento e Organização de Eventos Gastronômicos,2025-01-01,Obrigatoria,4,80,ativa
+753,Serviços de Sala e Bar,2025-01-01,Obrigatoria,4,80,ativa
+754,Técnicas Básicas de Gastronomia,2025-01-01,Obrigatoria,4,80,ativa
+755,Comunicação e Expressão II,2025-01-01,Obrigatoria,2,40,ativa
+756,Projeto Integrador II – Festival Gastronômico,2025-01-01,Obrigatoria,2,40,ativa
+757,Inglês II,2025-01-01,Obrigatoria,2,40,ativa
+758,Espanhol II,2025-01-01,Obrigatoria,2,40,ativa
+759,Administração,2025-01-01,Obrigatoria,2,40,ativa
+760,Marketing de Serviços,2025-01-01,Obrigatoria,2,40,ativa
+761,Tecnologia da Informação Aplicada a Empreendimentos Gastronômicos,2025-01-01,Obrigatoria,4,80,ativa
+762,Técnicas Gastronômicas Avançadas,2025-01-01,Obrigatoria,4,80,ativa
+763,Planejamento e Gestão de Cardápio Gastronômico,2025-01-01,Obrigatoria,4,80,ativa
+764,Estatística,2025-01-01,Obrigatoria,2,40,ativa
+765,Projeto Integrador III – Engenharia de Cardápios,2025-01-01,Obrigatoria,4,80,ativa
+766,Inglês III,2025-01-01,Obrigatoria,2,40,ativa
+767,Espanhol III,2025-01-01,Obrigatoria,2,40,ativa
+768,Planejamento Físico de Espaços Gastronômicos,2025-01-01,Obrigatoria,4,80,ativa
+769,Gestão Financeira de Empreendimentos Gastronômicos,2025-01-01,Obrigatoria,2,40,ativa
+770,Marketing Digital,2025-01-01,Obrigatoria,2,40,ativa
+771,Cultura Gastronômica,2025-01-01,Obrigatoria,4,80,ativa
+772,Gestão em Serviços de Alimentação (Operacional),2025-01-01,Obrigatoria,4,80,ativa
+773,Projeto Integrador IV – Pesquisa de Mercado Gastronômico,2025-01-01,Obrigatoria,4,80,ativa
+774,Inglês IV,2025-01-01,Obrigatoria,2,40,ativa
+775,Espanhol IV,2025-01-01,Obrigatoria,2,40,ativa
+776,Vitrinismo e Merchandising em A&B,2025-01-01,Obrigatoria,4,80,ativa
+777,Gestão da Qualidade em Gastronomia,2025-01-01,Obrigatoria,2,40,ativa
+778,Legislação Aplicada a Negócios Gastronômicos,2025-01-01,Obrigatoria,2,40,ativa
+779,Análise e Administração de Custos,2025-01-01,Obrigatoria,2,40,ativa
+780,Gestão de Recursos Humanos,2025-01-01,Obrigatoria,2,40,ativa
+781,Harmonização,2025-01-01,Obrigatoria,4,80,ativa
+782,Projeto Integrador V – Marketing,2025-01-01,Obrigatoria,4,80,ativa
+783,Inglês V,2025-01-01,Obrigatoria,2,40,ativa
+784,Espanhol V,2025-01-01,Obrigatoria,2,40,ativa
+785,Estudo de Viabilidade Econômico-Financeira,2025-01-01,Obrigatoria,4,80,ativa
+786,Tendências Mercadológicas do Mercado Gastronômico,2025-01-01,Obrigatoria,4,80,ativa
+787,Gerenciamento da Cadeia de Suprimentos na Gastronomia,2025-01-01,Obrigatoria,2,40,ativa
+788,Importação e Exportação de Alimentos e Bebidas,2025-01-01,Obrigatoria,2,40,ativa
+789,Empreendedorismo,2025-01-01,Obrigatoria,4,80,ativa
+790,Projeto Integrador VI – Modelos de Negócios e Projetos de Consultoria,2025-01-01,Obrigatoria,4,80,ativa
+791,Inglês VI,2025-01-01,Obrigatoria,2,40,ativa
+792,Espanhol VI,2025-01-01,Obrigatoria,2,40,ativa
+793,Introducao a Gestao Cultural,2024-01-01,Obrigatoria,2,40,ativa
+794,Comunicacao e Expressao,2024-01-01,Obrigatoria,2,40,ativa
+795,Sociologia da Cultura,2024-01-01,Obrigatoria,4,80,ativa
+796,Historia das Artes e da Cultura,2024-01-01,Obrigatoria,4,80,ativa
+797,Tecnologias da Informacao Aplicadas a Cultura,2024-01-01,Obrigatoria,2,40,ativa
+798,Gestao de Projetos Culturais,2024-01-01,Obrigatoria,4,80,ativa
+799,Economia da Cultura,2024-01-01,Obrigatoria,2,40,ativa
+800,Legislacao Cultural e Direitos Autorais,2024-01-01,Obrigatoria,2,40,ativa
+801,Tecnicas de Comunicacao e Expressao Oral,2024-01-01,Obrigatoria,2,40,ativa
+802,Design e Multimidia,2024-01-01,Obrigatoria,4,80,ativa
+803,Marketing Cultural,2024-01-01,Obrigatoria,4,80,ativa
+804,Economia Criativa,2024-01-01,Obrigatoria,2,40,ativa
+805,Patrimonio e Memoria Cultural,2024-01-01,Obrigatoria,2,40,ativa
+806,Producao de Eventos,2024-01-01,Obrigatoria,4,80,ativa
+807,Tecnologias Aplicadas a Producao Cultural,2024-01-01,Obrigatoria,2,40,ativa
+808,Gestao Financeira e Orcamentaria,2024-01-01,Obrigatoria,2,40,ativa
+809,Planejamento de Projetos Culturais,2024-01-01,Obrigatoria,4,80,ativa
+810,Politicas Culturais,2024-01-01,Obrigatoria,2,40,ativa
+811,Producao Audiovisual,2024-01-01,Obrigatoria,4,80,ativa
+812,Empreendedorismo Cultural,2024-01-01,Obrigatoria,2,40,ativa
+813,Gestao de Espacos Culturais,2024-01-01,Obrigatoria,4,80,ativa
+814,Legislacao Trabalhista e Tributaria na Cultura,2024-01-01,Obrigatoria,2,40,ativa
+815,Tecnologia da Producao de Espetaculos,2024-01-01,Obrigatoria,4,80,ativa
+816,Projeto Integrador em Producao Cultural,2024-01-01,Obrigatoria,4,80,ativa
+817,Gestao de Carreiras Culturais,2024-01-01,Obrigatoria,2,40,ativa
+818,Etica e Responsabilidade Social na Cultura,2024-01-01,Obrigatoria,2,40,ativa
+819,Estagio Supervisionado,2024-01-01,Obrigatoria,0,100,ativa
+820,Historia e Estilos em Paisagismo e Jardinagem,2024-01-01,Obrigatoria,4,80,ativa
+821,Estudos do Solo I,2024-01-01,Obrigatoria,4,80,ativa
+822,Biologia Vegetal I,2024-01-01,Obrigatoria,4,80,ativa
+823,Desenho Tecnico,2024-01-01,Obrigatoria,4,80,ativa
+824,Lazer e Hospitalidade,2024-01-01,Obrigatoria,2,40,ativa
+825,Legislacao,2024-01-01,Obrigatoria,2,40,ativa
+826,Comunicacao e Expressao,2024-01-01,Obrigatoria,2,40,ativa
+827,Espanhol I,2024-01-01,Obrigatoria,2,40,ativa
+828,Gestao Ambiental,2024-01-01,Obrigatoria,4,80,ativa
+829,Estudos do Solo II,2024-01-01,Obrigatoria,4,80,ativa
+830,Biologia Vegetal II,2024-01-01,Obrigatoria,4,80,ativa
+831,Desenho Assistido por Computador,2024-01-01,Obrigatoria,4,80,ativa
+832,Tecnologia em Jardinagem I,2024-01-01,Obrigatoria,4,80,ativa
+833,Competitividade e Inovacao,2024-01-01,Obrigatoria,2,40,ativa
+834,Espanhol II,2024-01-01,Obrigatoria,2,40,ativa
+835,Projeto Integrador I,2024-01-01,Obrigatoria,4,80,ativa
+836,Planejamento de Obras,2024-01-01,Obrigatoria,4,80,ativa
+837,Estrutura e Design I,2024-01-01,Obrigatoria,4,80,ativa
+838,Ecologia I,2024-01-01,Obrigatoria,4,80,ativa
+839,Tecnologia em Jardinagem II,2024-01-01,Obrigatoria,4,80,ativa
+840,Desenvolvimento de Portfolio,2024-01-01,Obrigatoria,2,40,ativa
+841,Espanhol III,2024-01-01,Obrigatoria,2,40,ativa
+842,Projeto Integrador II,2024-01-01,Obrigatoria,4,80,ativa
+843,Estrutura e Design II,2024-01-01,Obrigatoria,4,80,ativa
+844,Ecologia II,2024-01-01,Obrigatoria,4,80,ativa
+845,Tecnologia em Jardinagem III,2024-01-01,Obrigatoria,4,80,ativa
+846,Hidraulica,2024-01-01,Obrigatoria,4,80,ativa
+847,Fundamentos de Marketing Digital,2024-01-01,Obrigatoria,2,40,ativa
+848,Ingles I,2024-01-01,Obrigatoria,2,40,ativa
+849,Projeto Integrador III,2024-01-01,Obrigatoria,4,80,ativa
+850,Paisagismo Funcional I,2024-01-01,Obrigatoria,4,80,ativa
+851,Luminotecnica,2024-01-01,Obrigatoria,4,80,ativa
+852,Custos e Orcamentos,2024-01-01,Obrigatoria,2,40,ativa
+853,Administracao,2024-01-01,Obrigatoria,4,80,ativa
+854,Saude Publica e Meio Ambiente,2024-01-01,Obrigatoria,4,80,ativa
+855,Ingles II,2024-01-01,Obrigatoria,2,40,ativa
+856,Projeto Integrador IV,2024-01-01,Obrigatoria,4,80,ativa
+857,Arborizacao Urbana,2024-01-01,Obrigatoria,4,80,ativa
+858,Paisagismo Funcional II,2024-01-01,Obrigatoria,4,80,ativa
+859,Manejo de Especies Invasoras,2024-01-01,Obrigatoria,2,40,ativa
+860,Automacao,2024-01-01,Obrigatoria,4,80,ativa
+861,Empreendedorismo em Jardinagem,2024-01-01,Obrigatoria,4,80,ativa
+862,Ingles III,2024-01-01,Obrigatoria,2,40,ativa
+863,Administracao Geral,2021-01-01,Obrigatoria,2,40,ativa
+864,Matematica,2021-01-01,Obrigatoria,4,80,ativa
+865,Economia e Financas,2021-01-01,Obrigatoria,2,40,ativa
+866,Gestao da Qualidade,2021-01-01,Obrigatoria,4,80,ativa
+867,Comunicacao e Expressao,2021-01-01,Obrigatoria,2,40,ativa
+868,"Ergonomia, Saude e Seguranca do Trabalho",2021-01-01,Obrigatoria,2,40,ativa
+869,Gestao de Pessoas,2021-01-01,Obrigatoria,2,40,ativa
+870,Estatistica Aplicada,2021-01-01,Obrigatoria,4,80,ativa
+871,Gestao de Processos,2021-01-01,Obrigatoria,4,80,ativa
+872,Custos Industriais e Comerciais,2021-01-01,Obrigatoria,2,40,ativa
+873,Ingles Instrumental,2021-01-01,Obrigatoria,2,40,ativa
+874,Gestao de Projetos,2021-01-01,Obrigatoria,2,40,ativa
+875,Pesquisa Operacional,2021-01-01,Obrigatoria,4,80,ativa
+876,Controle Estatistico do Processo,2021-01-01,Obrigatoria,4,80,ativa
+877,Analise de Investimentos,2021-01-01,Obrigatoria,2,40,ativa
+878,Comunicacao Empresarial,2021-01-01,Obrigatoria,2,40,ativa
+879,Gestao Estrategica,2021-01-01,Obrigatoria,2,40,ativa
+880,Modelagem e Simulacao de Processos,2021-01-01,Obrigatoria,4,80,ativa
+881,Auditoria da Qualidade,2021-01-01,Obrigatoria,4,80,ativa
+882,Gestao Ambiental e Sustentabilidade,2021-01-01,Obrigatoria,2,40,ativa
+883,Metodologia da Pesquisa Cientifica,2021-01-01,Obrigatoria,2,40,ativa
+884,Empreendedorismo e Inovacao,2021-01-01,Obrigatoria,2,40,ativa
+885,Gestao de Indicadores de Desempenho,2021-01-01,Obrigatoria,4,80,ativa
+886,Gestao da Producao e Servicos,2021-01-01,Obrigatoria,4,80,ativa
+887,Economia e Mercado,2021-01-01,Obrigatoria,2,40,ativa
+888,Etica e Responsabilidade Social,2021-01-01,Obrigatoria,2,40,ativa
+889,Planejamento e Controle da Qualidade,2021-01-01,Obrigatoria,4,80,ativa
+890,Analise Multivariada,2021-01-01,Obrigatoria,4,80,ativa
+891,Sistemas Integrados de Gestao,2021-01-01,Obrigatoria,4,80,ativa
+892,Gestao de Custos e Orcamento,2021-01-01,Obrigatoria,2,40,ativa
+893,Trabalho de Graduacao,2021-01-01,Obrigatoria,4,80,ativa

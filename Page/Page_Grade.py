@@ -21,7 +21,7 @@ with col1:
     fCurso = fCurso['cod_cur']
 
 with col2:
-    fDisciplina = st.selectbox(label='Cursos',
+    fDisciplina = st.selectbox(label='Disciplinas',
                                options= lst.listaDisciplinas(),
                                format_func= lambda reg: reg['nom_dis']
                                 )

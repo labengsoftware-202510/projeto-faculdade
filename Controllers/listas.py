@@ -84,6 +84,26 @@ def buscaIndexDisciplinas(lista, valorBuscado):
             return index
     return None
 ###################################################################################################
+def listaGrades():
+    selectQuery = f"select id_grade, concat(c.nom_cur, ' - ', d.nom_dis) as descricao, c.nom_cur, d.nom_dis "
+    selectQuery += f"from grade g, cursos c, disciplinas d "
+    selectQuery += f"where g.cod_cur = c.cod_cur "
+    selectQuery += f"and g.cod_dis = d.cod_dis;"
+    conn = st.connection('mysql', type='sql')
+    df = pd.DataFrame([{'id_grade':'',
+                        'descricao':'Selecione...'}])
+    addRow = conn.query(selectQuery,
+                        ttl=600)
+    dfRetorno = pd.concat([df,addRow],ignore_index=True)
+    return dfRetorno.to_dict('records')
+
+def buscaIndexGrades(lista, valorBuscado):
+    for index, item in enumerate(lista):
+        if item['id_grade'] == valorBuscado:
+            return index
+    return 0
+
+###################################################################################################
 def listaGradeDependente(parametros):
     selectQuery = f"select g.id_grade, concat(c.nom_cur, ' - ', d.nom_dis) as descricao "
     selectQuery += f"from grade g, cursos c, disciplinas d "
@@ -124,3 +144,23 @@ def buscaIndexGradeSubstituta(lista, valorBuscado):
         if item['id_grade'] == valorBuscado:
             return index
     return 0
+
+###################################################################################################
+def listaProfessores():
+    selectQuery = f"select reg_ins, nom_com "
+    selectQuery += f"from pessoas "
+    selectQuery += f"where categoria = 2;"
+    conn = st.connection('mysql', type='sql')
+    df = pd.DataFrame([{'reg_ins':'',
+                        'nom_com':'Selecione...'}])
+    addRow = conn.query(selectQuery,
+                        ttl=600)
+    dfRetorno = pd.concat([df,addRow],ignore_index=True)
+    return dfRetorno.to_dict('records')
+
+def buscaIndexProfessores(lista, valorBuscado):
+    for index, item in enumerate(lista):
+        if item['reg_ins'] == valorBuscado:
+            return index
+    return 0
+###################################################################################################
