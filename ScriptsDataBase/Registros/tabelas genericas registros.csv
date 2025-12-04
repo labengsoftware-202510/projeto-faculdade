@@ -4,6 +4,13 @@ crg_pes,2,Professor,
 crg_pes,3,Aluno,
 crg_pes,4,Terceirizado,
 crg_pes,5,Funcionário,"Usado caso não tenha o cargo definido"
+dia_sem,dom,Domingo,"Dia da semana"
+dia_sem,qua,"Quarta - Feira","Dia da semana"
+dia_sem,qui,"Quinta - Feira","Dia da semana"
+dia_sem,sab,Sábado,"Dia da semana"
+dia_sem,seg,"Segunda - feira","Dia da semana"
+dia_sem,sex,"Sexta - Feira","Dia da semana"
+dia_sem,ter,"Terça - feira","Dia da semana"
 est_brl,AC,Acre,
 est_brl,AL,Alagoas,
 est_brl,AM,Amazonas,
@@ -31,10 +38,17 @@ est_brl,SC,"Santa Catarina",
 est_brl,SE,Serjipe,
 est_brl,SP,"São Paulo",
 est_brl,TO,Tocantins,
+est_gra_cur,A,"em Análise","A grade está em análise"
+est_gra_cur,C,Cancelada,"A grade foi cancelada"
+est_gra_cur,S,Substituída,"A grade foi Substituida"
+est_gra_cur,U,"Aprovado/em Uso","A grade pode ser utilizada"
 per_tur,1,Matutino,
 per_tur,2,Vespertino,
 per_tur,3,Noturno,
 per_tur,4,Especial,
+sit_alu_cur,1,Cursando,
+sit_alu_cur,2,Concluido,
+sit_alu_cur,3,"Não Concluido",
 sit_alu_tur,1,Cursando,
 sit_alu_tur,2,Aprovado,
 sit_alu_tur,3,Reprovado,
@@ -45,7 +59,15 @@ sit_cur,3,Reprovado,
 sit_cur,4,"Em revisão",
 tab_tab_ger,crg_pes,"Tabela de Cargos das pessoas","Tabela de Cargos das Pessoas Cadastradas"
 tab_tab_ger,est_brl,"Tabela de Estados","Tabela de Estados Brasileiros"
+tab_tab_ger,est_gra_cur,"Tabela de Estado da Grade Curricular","Em uso, Em análise, Descontinuada... etc."
 tab_tab_ger,per_tur,"Tabela de Períodos das Turmas","Período que a turma é lecionada"
+tab_tab_ger,sit_alu_cur,"Tabela Estados do Aluno no Curso",
 tab_tab_ger,sit_alu_tur,"Tabela de Situação dos Alunos nas Turmas","Situação dos Alunos nas Turmas"
+tab_tab_ger,sit_cur,"Tabela de Situação do Curso",
 tab_tab_ger,tab_tab_ger,"Tabelas Genéricas",
-tab_tab_ger,"teste 5 campo 1","teste 5 campo 4","teste 5 campo 5"
+tab_tab_ger,tip_dis,"Tabela de Tipo de Disciplina","Obrigatória, Eletiva... etc."
+tip_dis,D,Descontinuada,"Disciplina Descontinuada"
+tip_dis,E1,"Eletiva 1","Disciplina Eletiva 1"
+tip_dis,E2,"Eletiva 2","Disciplina Eletiva 2"
+tip_dis,O,Obrigatória,"Disciplina Obrigatória"
+tip_dis,S,Substituida,"Disciplina Substituída "

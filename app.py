@@ -19,7 +19,8 @@ pages = {
         st.Page("Page/Page_Grade.py", title='Grade de Disciplinas'),
         st.Page("Page/Page_Turmas.py", title='Turmas'),
         st.Page("Page/Page_Pessoas.py", title='Pessoas'),
-        st.Page("Page/Page_Matriculas.py", title='Matriculas'),
+        st.Page("Page/Page_Matriculas_Cursos.py", title='Matriculas Cursos'),
+        st.Page("Page/Page_Matriculas_Turmas.py", title='Matriculas Turmas'),
     ],
     "Sobre":[st.Page("Page/Page_Sobre.py", title= 'Sobre')],
 }

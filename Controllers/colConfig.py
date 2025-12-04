@@ -142,3 +142,31 @@ def colConfigTurmas():
                                          disabled=True,),
     }
     return config
+
+def colConfigMatriculaCursos():
+    config = {
+        'reg_ins':st.column_config.Column(label='Registro Institucional',
+                                         disabled=True,),
+        'nom_com':st.column_config.Column(label='Nome Completo',
+                                         disabled=True,),
+        'cod_cur':st.column_config.Column(label='Código do Curso',
+                                         disabled=True,),
+        'nom_cur':st.column_config.Column(label='Nome do Curso',
+                                         disabled=True,),
+        'dat_inc':None,
+        'dat_fin':None,
+        'dat_max':None,
+        'data_inicio':st.column_config.Column(label='Data de Início',
+                                              disabled=True,),
+        'data_final':st.column_config.Column(label='Data de Término',  
+                                              disabled=True,),
+        'data_max':st.column_config.Column(label='Data Máxima para Conclusão',  
+                                              disabled=True,),
+        'estado':st.column_config.Column(label='Estado',
+                                         disabled=True,),
+        'sit': st.column_config.Column(label='Situação',
+                                         disabled=True,),
+        'dip_env': st.column_config.Column(label='Diploma Enviado',
+                                         disabled=True,),
+    }
+    return config

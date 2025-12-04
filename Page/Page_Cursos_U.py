@@ -11,10 +11,10 @@ def altCursos(parametros):
                             )
     
     lista = lst.listTabGer('sit_cur')
-    sitCurIndex = lst.buscaIndex(lista, parametros['sit'])
+    sitCurIndex = lst.buscaIndex(lista, parametros['estado'])
     escEstado = st.selectbox(label='Situação do Curso',
                         options=lista,
-                        placeholder='Insira a Cidade',
+                        placeholder='Selecione',
                         format_func=lambda x: x['descricao'],
                         index=sitCurIndex,
                         ) 
@@ -27,7 +27,7 @@ def altCursos(parametros):
     sit = ''
     nSit = st.toggle(label= 'Estado do Curso',
                         disabled=flagDestivado,
-                        value=(parametros['estado'] == 'Ativo'),
+                        value=(parametros['sit'] == 'Ativo'),
                         key='tSit',
                         )
     if nSit:
