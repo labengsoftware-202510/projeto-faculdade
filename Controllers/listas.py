@@ -164,3 +164,20 @@ def buscaIndexProfessores(lista, valorBuscado):
             return index
     return 0
 ###################################################################################################
+def listaAlunos():
+    selectQuery = f"select reg_ins, nom_com "
+    selectQuery += f"from pessoas "
+    selectQuery += f"where categoria = 3;"
+    conn = st.connection('mysql', type='sql')
+    df = pd.DataFrame([{'reg_ins':'',
+                        'nom_com':'Selecione...'}])
+    addRow = conn.query(selectQuery,
+                        ttl=600)
+    dfRetorno = pd.concat([df,addRow],ignore_index=True)
+    return dfRetorno.to_dict('records')
+
+def buscaIndexAlunos(lista, valorBuscado):
+    for index, item in enumerate(lista):
+        if item['reg_ins'] == valorBuscado:
+            return index
+    return 0
