@@ -9,7 +9,7 @@ import Controllers.crudMatriculaCursos as ctb
 def altMatriculaCursos(parametros):
 
     listaAlunos = lst.listaAlunos()
-    indexAluno = lst.buscaIndexAluno(listaAlunos, parametros['reg_ins'])
+    indexAluno = lst.buscaIndexAlunos(listaAlunos, parametros['reg_ins'])
     selAluno  = st.selectbox(label='Aluno',
                              options= listaAlunos,
                             format_func= lambda record: f'{record["nom_com"]}',
@@ -19,7 +19,7 @@ def altMatriculaCursos(parametros):
     nNomCom = selAluno['nom_com']
     
     listaCursos = lst.listaCursos()
-    indexCurso = lst.buscaIndexCurso(listaCursos, parametros['cod_cur'])
+    indexCurso = lst.buscaIndexCursos(listaCursos, parametros['cod_cur'])
     selCurso    = st.selectbox(label='Curso',
                              options= listaCursos,
                             format_func= lambda record: f'{record["nom_cur"]}',
@@ -33,6 +33,7 @@ def altMatriculaCursos(parametros):
     estado  = st.selectbox(label='Situação da Matrícula',
                              options= listaEstado,
                             format_func= lambda record: f'{record["descricao"]}',
+                            index= indexEstado,
                             )
     nEstado = estado['valor']
     
@@ -65,13 +66,15 @@ def altMatriculaCursos(parametros):
                    'estado': nEstado,
                    'sit': sit,
                    'dip_env': dipEnv,
+                   'dat_inc': parametros['dat_inc'],
+                   'dat_fin': parametros['dat_fin'],
                   }
 
     col1, col2, col3, col4, col5 = st.columns(5)
     with col5:
-        insButton = st.button(label='Inserir',
+        insButton = st.button(label='Alterar',
                               width='stretch')
     
     if insButton:
         st.spinner()
-        ctb.inserir(parametros)
+        ctb.alterar(parametros)

@@ -30,14 +30,11 @@ def mTurmasR(filtros):
     if tabela[0]:
         dtFrame = tabela[1]
         rowSel = st.dataframe(data=dtFrame,
-                            height=150,
+                            height=250,
                             selection_mode='single-row',
                             on_select='rerun',
-                            column_config=cc.colConfigMatriculaCursos())
+                            column_config=cc.colConfigMatriculaTurmas())
         selRow = rowSel.selection.rows
-
-        # select mt.reg_ins, p.nom_com, mt.cod_tur, c.nom_cur, d.nom_dis, mt.estado, mt.faltas, "
-        # selectQuery += f"mt.nota1, mt.nota2, mt.nota3, mt.nota4, mt.media, mt.dat_ini, mt.dat_fin "
         
         if selRow:
             selIndex = {'reg_ins': dtFrame['reg_ins'].iloc[selRow].item(),
@@ -81,8 +78,8 @@ def mTurmasR(filtros):
                                 width='stretch',
                                 disabled=fDesativado,)
     
-    # if regButton:
-    #     Pg_C.()
+    if regButton:
+        Pg_C.insMatriculaTurmas()
     # if altButton:
     #     Pg_U.(selIndex)
     # if delButton:

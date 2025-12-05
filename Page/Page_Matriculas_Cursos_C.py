@@ -62,6 +62,7 @@ def insMatriculaCursos():
                    'sit': sit,
                    'dip_env': dipEnv,
                    'dat_inc': date.today(),
+                   'dat_fin': None,
                    'dat_max': date.today() + relativedelta(years=8),
                   }
 

@@ -170,3 +170,38 @@ def colConfigMatriculaCursos():
                                          disabled=True,),
     }
     return config
+
+def colConfigMatriculaTurmas():
+    config = {
+        'reg_ins':st.column_config.Column(label='Registro Institucional',
+                                         disabled=True,),
+        'nom_com':st.column_config.Column(label='Nome Completo',
+                                         disabled=True,),
+        'cod_tur':st.column_config.Column(label='Código do Curso',
+                                         disabled=True,),
+        'nom_cur':st.column_config.Column(label='Nome do Curso',
+                                         disabled=True,),
+        'nom_dis':st.column_config.Column(label='Nome da Disciplina',
+                                         disabled=True,),
+        'estado':st.column_config.Column(label='Estado',
+                                         disabled=True,),
+        'faltas':st.column_config.Column(label='Número de Faltas',
+                                         disabled=True,),
+        'nota1':st.column_config.Column(label='Nota 1',
+                                         disabled=True,),
+        'nota2':st.column_config.Column(label='Nota 2',
+                                         disabled=True,),
+        'nota3':st.column_config.Column(label='Nota 3',
+                                         disabled=True,),
+        'nota4':st.column_config.Column(label='Nota 4',
+                                            disabled=True,),
+        'media':st.column_config.Column(label='Média',
+                                         disabled=True,),
+        'dat_ini':None,
+        'data_inicio':st.column_config.Column(label='Data de Início',
+                                              disabled=True,),
+        'dat_fin':None,
+        'data_final':st.column_config.Column(label='Data de Término',  
+                                              disabled=True,),
+    }
+    return config

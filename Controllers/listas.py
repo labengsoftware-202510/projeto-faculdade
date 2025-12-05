@@ -102,6 +102,26 @@ def buscaIndexGrades(lista, valorBuscado):
         if item['id_grade'] == valorBuscado:
             return index
     return 0
+###################################################################################################
+def listaTurmas():
+    selectQuery =  f"select t.cod_tur, CONCAT(c.nom_cur, ' - ', d.nom_dis) as turma "
+    selectQuery += f"from turmas t, grade g, cursos c, disciplinas d "
+    selectQuery += f"where t.id_grade = g.id_grade "
+    selectQuery += f"and g.cod_cur = c.cod_cur "
+    selectQuery += f"and g.cod_dis = d.cod_dis;"
+    conn = st.connection('mysql', type='sql')
+    df = pd.DataFrame([{'cod_tur':'',
+                        'turma':'Selecione...'}])
+    addRow = conn.query(selectQuery,
+                        ttl=600)
+    dfRetorno = pd.concat([df,addRow],ignore_index=True)
+    return dfRetorno.to_dict('records')
+
+def buscaIndexTurmas(lista, valorBuscado):
+    for index, item in enumerate(lista):
+        if item['cod_tur'] == valorBuscado:
+            return index
+    return 0
 
 ###################################################################################################
 def listaGradeDependente(parametros):

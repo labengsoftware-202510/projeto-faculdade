@@ -40,7 +40,7 @@ def inserir(parametros):
             insertCommand += f"values (:reg_ins, :cod_tur, :estado, :faltas, :nota1, :nota2, :nota3, :nota4, :media, :dat_ini, :dat_fin);"
             session.execute(text(insertCommand), parametros)
             session.commit()
-            statsMsg.operacaoSucesso(f'Matrícula {parametros['nom_com']} - {parametros['nom_cur']} / {parametros['nom_dis']} feita com sucesso!',)
+            statsMsg.operacaoSucesso(f'Matrícula {parametros['nom_com']} - {parametros['nom_tur']} / {parametros['nom_dis']} feita com sucesso!',)
             st.cache_data.clear()
             st.rerun()
     except Exception as e:
@@ -56,7 +56,7 @@ def alterar(parametros):
             updateCommand += f"set estado = :estado,  faltas = :faltas, nota1 = :nota1, nota2 = :nota2, nota3 = :nota3, nota4 = :nota4, media = :media, dat_fin = :dat_fin "
             updateCommand += f"where reg_ins = :reg_ins "
             updateCommand += f"and cod_tur = :cod_tur "
-            updateCommand += f"and DATE_FORMAT(dat_ini, '%Y-%m-%d') = ':dat_ini';"
+            updateCommand += f"and DATE_FORMAT(dat_ini, '%Y-%m-%d') = DATE_FORMAT(:dat_ini, '%Y-%m-%d');"
             session.execute(text(updateCommand), parametros)
             session.commit()
             statsMsg.operacaoSucesso(f'Matrícula {parametros['nom_com']} - {parametros['nom_cur']} / {parametros['nom_dis']} alterada com sucesso!')
