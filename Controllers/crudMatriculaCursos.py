@@ -53,10 +53,10 @@ def alterar(parametros):
         conn = st.connection('mysql', type='sql')
         with conn.session as session:
             updateCommand = f"update matriculas_cursos "
-            updateCommand += f"set dat_fin = :dat_fin,  estado = :estado, sit = :sit, dip_env = :dip_env "
+            updateCommand += f"set estado = :estado, sit = :sit, dip_env = :dip_env "
             updateCommand += f"where reg_ins = :reg_ins "
             updateCommand += f"and cod_cur = :cod_cur "
-            updateCommand += f"and DATE_FORMAT(dat_inc, '%Y-%m-%d') = ':dat_inc';"
+            updateCommand += f"and DATE_FORMAT(dat_inc, '%Y-%m-%d') = DATE_FORMAT(:dat_inc, '%Y-%m-%d');"
             session.execute(text(updateCommand), parametros)
             session.commit()
             statsMsg.operacaoSucesso(f'Matrícula {parametros['nom_com']} - {parametros['nom_cur']} alterada com sucesso!')

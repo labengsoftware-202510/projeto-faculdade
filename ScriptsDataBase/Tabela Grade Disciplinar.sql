@@ -18,4 +18,4 @@ CREATE TABLE `grade` (
   CONSTRAINT `fk_disciplina` FOREIGN KEY (`cod_dis`) REFERENCES `disciplinas` (`cod_dis`),
   CONSTRAINT `fk_grade_dependente` FOREIGN KEY (`id_grade_d`) REFERENCES `grade` (`id_grade`),
   CONSTRAINT `fk_grade_nova` FOREIGN KEY (`id_grade_n`) REFERENCES `grade` (`id_grade`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci

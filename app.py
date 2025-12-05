@@ -22,6 +22,7 @@ pages = {
         st.Page("Page/Page_Matriculas_Cursos.py", title='Matriculas Cursos'),
         st.Page("Page/Page_Matriculas_Turmas.py", title='Matriculas Turmas'),
     ],
+    "Gráficos":[st.Page("Page/Page_Graficos.py", title= 'Gráficos')],
     "Sobre":[st.Page("Page/Page_Sobre.py", title= 'Sobre')],
 }
 
